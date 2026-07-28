@@ -19,7 +19,7 @@ Estado: pendiente / en_progreso / hecho
 | Ávila | https://www.diputacionavila.es/la-provincia/nuestros-pueblos/ | B | pendiente | |
 | Badajoz | http://www.dip-badajoz.es/municipios/municipio_dinamico/index.php | C | pendiente | |
 | Barcelona | http://www.diba.es/es/web/municipis | B | pendiente | |
-| Burgos | http://www.burgos.es/provincia/geografia/municipios | B | pendiente | |
+| Burgos | http://www.burgos.es/provincia/geografia/municipios | B | hecho |"resuelto con CSV manual (scripts/provincias/data/burgos_urls.csv), no scraping — la web de la diputación requiere JavaScript" |
 | Cáceres | https://www.provinciadecaceres.es/mapa-de-ayuntamientos | B | pendiente | |
 | Cádiz | https://www.dipucadiz.es/diputacion/ | B | pendiente | |
 | Cantabria | http://administracionlocal.cantabria.es/municipios | B | pendiente | |
