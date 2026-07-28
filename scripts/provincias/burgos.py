@@ -43,7 +43,15 @@ def main():
 
         clave = normalizar(nombre)
         municipio = municipios.get(clave)
-
+        if not municipio:
+            # Probar la forma "Resto, Artículo" (convención INE) si el nombre empieza por artículo
+            for articulo in ["los ", "las ", "la ", "el "]:
+                if clave.startswith(articulo):
+                    resto = clave[len(articulo):]
+                    clave_alternativa = f"{resto}, {articulo.strip()}"
+                    municipio = municipios.get(clave_alternativa)
+                    if municipio:
+                        break
         if municipio:
             supabase.table("municipios").update({"url_ayuntamiento": web}).eq("id", municipio["id"]).execute()
             actualizados += 1
