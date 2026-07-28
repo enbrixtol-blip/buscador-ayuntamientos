@@ -56,7 +56,6 @@ def main():
             supabase.table("municipios")
             .update({"url_ayuntamiento": web})
             .eq("nombre", nombre)
-            .eq("provincia", "Castellón")
             .execute()
         )
         if resp.data:
