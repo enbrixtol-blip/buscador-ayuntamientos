@@ -69,3 +69,21 @@ crearlas de nuevo, el workflow ya las inyecta como variables de entorno.
 3. Si no funciona: deja el estado en `en_progreso` y anota en Notas qué
    problema encontraste, para que la siguiente sesión que lo revise sepa
    por dónde continuar en vez de empezar de cero.
+
+   ## Caso especial: municipios con artículo (Los/Las/La/El...)
+
+En la tabla `municipios`, los nombres que empiezan por artículo están
+guardados con el formato oficial del INE, que coloca el artículo al final
+separado por coma — ej. `Altos, Los` en vez de `Los Altos`. Muchas fuentes
+externas (CSV, webs de diputaciones) sí usan la forma natural ("Los Altos").
+
+Al cruzar nombres, si el emparejamiento directo falla para un municipio que
+empieza por "Los", "Las", "La" o "El", prueba también la forma alternativa
+"Resto, Artículo" antes de darlo por no encontrado. Ejemplo de lógica (ver
+`scripts/provincias/burgos.py` para la implementación completa):
+
+```python
+for articulo in ["los ", "las ", "la ", "el "]:
+    if clave.startswith(articulo):
+        clave_alternativa = f"{clave[len(articulo):]}, {articulo.strip()}"
+        # probar clave_alternativa en el diccionario de municipios
