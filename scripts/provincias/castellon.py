@@ -14,8 +14,7 @@ DATASET_URL = (
 
 # Nombres candidatos de columna, por si el real no coincide exacto
 CANDIDATOS_NOMBRE = ["nombre_poblacion", "nombre_municipio", "municipio", "nombre", "poblacion"]
-CANDIDATOS_WEB = ["web", "pagina_web", "url", "url_web", "sitio_web", "website"]
-
+CANDIDATOS_WEB = ["web", "pagina_web", "url", "url_web", "sitio_web", "website", "web_ayuntamiento"]
 supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
 
 
