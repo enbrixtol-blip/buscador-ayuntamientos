@@ -46,6 +46,7 @@ def main():
         return
 
     actualizados = 0
+    no_emparejados = []
     for fila in filas:
         nombre = fila.get(col_nombre, "").strip()
         web = fila.get(col_web, "").strip()
@@ -61,9 +62,10 @@ def main():
         if resp.data:
             actualizados += 1
             print(f"Actualizado: {nombre} -> {web}")
+        else:
+            no_emparejados.append(nombre)
 
     print(f"Total actualizados: {actualizados} de {len(filas)} filas del dataset")
-
-
+    print(f"Sin emparejar ({len(no_emparejados)}): {no_emparejados}")
 if __name__ == "__main__":
     main()
