@@ -87,3 +87,29 @@ for articulo in ["los ", "las ", "la ", "el "]:
     if clave.startswith(articulo):
         clave_alternativa = f"{clave[len(articulo):]}, {articulo.strip()}"
         # probar clave_alternativa en el diccionario de municipios
+
+## Casos frecuentes al cruzar nombres de municipios
+
+Además del caso "artículo al final" ya documentado arriba, en la práctica
+han aparecido estos otros patrones al comparar nombres entre fuentes:
+
+- **Nombres bilingües con "/"**: algunas fuentes traen el nombre completo
+  bilingüe unido con "/" (ej. "Castelló/Castellón de la Plana"), y hay que
+  comparar cada mitad por separado contra la tabla, no solo el texto
+  completo.
+- **Artículo al final con coma**: variante del caso ya documentado, pero
+  con coma en vez de espacio — ej. "Vall d'Uixó, la" en la tabla vs
+  "Vall d'Uixò" a secas en la fuente externa. La función `sin_articulo_final`
+  en `scripts/provincias/castellon.py` resuelve este caso.
+- **Pedanías o entidades menores**: algunas fuentes incluyen núcleos de
+  población que no son municipios independientes (ej. "Ballestar (Pobla de
+  Benifassà)"). Estos nunca van a encontrar coincidencia y es correcto que
+  queden sin emparejar — no es un fallo del script.
+- **Diferencias reales de nombre**: a veces no es un problema de formato,
+  sino que el nombre en sí difiere ligeramente entre fuentes (ej. "Pobla de
+  Tornesa" vs "Pobla Tornesa, la" en la tabla). Para estos, no merece la
+  pena generalizar la lógica — se resuelven con un diccionario de
+  `EXCEPCIONES` manuales en el script (ver `scripts/provincias/castellon.py`)
+  o, si son muy pocos casos, directamente a mano desde el Table Editor de
+  Supabase, editando la fila y escribiendo la URL en `url_ayuntamiento`
+  sin necesidad de tocar código.
