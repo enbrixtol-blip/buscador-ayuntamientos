@@ -1,6 +1,8 @@
 import csv
 import io
 import os
+import re
+import unicodedata
 import requests
 from supabase import create_client
 
@@ -12,10 +14,18 @@ DATASET_URL = (
     "datasets/ayuntamientos/exports/csv?lang=es&timezone=Europe%2FMadrid&delimiter=%3B"
 )
 
-# Nombres candidatos de columna, por si el real no coincide exacto
 CANDIDATOS_NOMBRE = ["nombre_poblacion", "nombre_municipio", "municipio", "nombre", "poblacion"]
 CANDIDATOS_WEB = ["web", "pagina_web", "url", "url_web", "sitio_web", "website", "web_ayuntamiento"]
+
 supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
+
+
+def normalizar(texto):
+    texto = texto.strip().lower()
+    texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("utf-8")
+    texto = re.sub(r"\s+", " ", texto)
+    texto = re.sub(r"\s+,", ",", texto)
+    return texto
 
 
 def detectar_columna(columnas, candidatos):
@@ -23,6 +33,16 @@ def detectar_columna(columnas, candidatos):
         if c in columnas:
             return c
     return None
+
+
+def obtener_indice_municipios():
+    resp = supabase.table("municipios").select("id, nombre").execute()
+    indice = {}
+    for m in resp.data:
+        indice[normalizar(m["nombre"])] = m
+        for parte in m["nombre"].split("/"):
+            indice.setdefault(normalizar(parte), m)
+    return indice
 
 
 def main():
@@ -45,27 +65,28 @@ def main():
         print("Revisa la lista de columnas de arriba y ajusta CANDIDATOS_NOMBRE/CANDIDATOS_WEB.")
         return
 
+    indice = obtener_indice_municipios()
+
     actualizados = 0
     no_emparejados = []
+
     for fila in filas:
         nombre = fila.get(col_nombre, "").strip()
         web = fila.get(col_web, "").strip()
         if not nombre or not web:
             continue
 
-        resp = (
-            supabase.table("municipios")
-            .update({"url_ayuntamiento": web})
-            .eq("nombre", nombre)
-            .execute()
-        )
-        if resp.data:
+        municipio = indice.get(normalizar(nombre))
+        if municipio:
+            supabase.table("municipios").update({"url_ayuntamiento": web}).eq("id", municipio["id"]).execute()
             actualizados += 1
             print(f"Actualizado: {nombre} -> {web}")
         else:
             no_emparejados.append(nombre)
 
-    print(f"Total actualizados: {actualizados} de {len(filas)} filas del dataset")
+    print(f"\nTotal actualizados: {actualizados} de {len(filas)} filas del dataset")
     print(f"Sin emparejar ({len(no_emparejados)}): {no_emparejados}")
+
+
 if __name__ == "__main__":
     main()
