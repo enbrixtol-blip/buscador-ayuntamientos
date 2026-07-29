@@ -18,7 +18,7 @@ Estado: pendiente / en_progreso / hecho
 | Asturias | http://www.facc.info/?page_id=341 | B | pendiente | |
 | Ávila | https://www.diputacionavila.es/la-provincia/nuestros-pueblos/ | B | pendiente | |
 | Badajoz | http://www.dip-badajoz.es/municipios/municipio_dinamico/index.php | C | pendiente | |
-| Barcelona | http://www.diba.es/es/web/municipis | B | pendiente | |
+| Barcelona | http://www.diba.es/es/web/municipis | B | pendiente | http://do.diba.cat/api/dataset/municipis/format/json2 |
 | Burgos | http://www.burgos.es/provincia/geografia/municipios | B | hecho |"resuelto con CSV manual (scripts/provincias/data/burgos_urls.csv), no scraping — la web de la diputación requiere JavaScript" |
 | Cáceres | https://www.provinciadecaceres.es/mapa-de-ayuntamientos | B | pendiente | |
 | Cádiz | https://www.dipucadiz.es/diputacion/ | B | pendiente | |
@@ -34,7 +34,7 @@ Estado: pendiente / en_progreso / hecho
 | Guadalajara | http://www.dguadalajara.es/web/guest/municipios | B | pendiente | |
 | Gipuzkoa/Guipúzcoa | https://www.gipuzkoa.eus/es/web/ogasuna/catastro/herramientas-gestion/planos-parcelarios/listado-municipios | D | pendiente | Parece herramienta de catastro, no directorio de webs |
 | Huelva | https://www.diphuelva.es/servicios/municipios/ | B | pendiente | |
-| Huesca | https://www.dphuesca.es/municipios | B | pendiente | |
+| Huesca | https://www.dphuesca.es/municipios | A | pendiente | https://zenodo.org/records/17573972/files/municipios_Aragon.csv?download=1 |
 | Illes Balears/Islas Baleares | https://www.caib.es/sites/cedomu/es/paginas_webs_de_los_consejos_insulares-25829/ | B | pendiente | Enlaza a consejos insulares, revisar si llega a nivel municipio |
 | Jaén | http://www.dipujaen.es/municipios/directorio.html | B | pendiente | |
 | León | https://www.dipuleon.es/municipios/ayuntamientos-de-la-provincia/ | B | pendiente | |
@@ -56,13 +56,13 @@ Estado: pendiente / en_progreso / hecho
 | Sevilla | http://www.dipusevilla.es/municipios/ | B | pendiente | |
 | Soria | http://www.dipsoria.com/index.php/mod.municipios/mem.listado/relcategoria.208/relmenu.135 | B | pendiente | |
 | Tarragona | https://www.dipta.cat/municipi | B | pendiente | |
-| Teruel | https://www.dpteruel.es/DPTweb/municipios/ | B | pendiente | |
+| Teruel | https://www.dpteruel.es/DPTweb/municipios/ | A | pendiente | https://zenodo.org/records/17573972/files/municipios_Aragon.csv?download=1 |
 | Toledo | https://www.diputoledo.es/global/11/50/169/dir_municipios | B | pendiente | |
 | València/Valencia | http://www.dival.es/es/content/entidades-locales | B | pendiente | |
 | Valladolid | http://www.ayuntamientosdevalladolid.es/ | B | pendiente | |
 | Bizkaia/Vizcaya | http://www.bizkaia.net/home2/ca_index.asp | C | pendiente | |
 | Zamora | https://www.diputaciondezamora.es/opencms/provincia/nuestros-ayuntamientos/nuestros-ayuntamientos/ | B | pendiente | |
-| Zaragoza | http://www.dpz.es/municipio | B | pendiente | |
+| Zaragoza | http://www.dpz.es/municipio | A | pendiente | https://zenodo.org/records/17573972/files/municipios_Aragon.csv?download=1 |
 
 ## Cómo coger una provincia para trabajar
 1. Elige una fila en estado `pendiente`.
