@@ -17,6 +17,11 @@ DATASET_URL = (
 CANDIDATOS_NOMBRE = ["nombre_poblacion", "nombre_municipio", "municipio", "nombre", "poblacion"]
 CANDIDATOS_WEB = ["web", "pagina_web", "url", "url_web", "sitio_web", "website", "web_ayuntamiento"]
 
+# Excepciones manuales: nombre del dataset -> nombre real en la tabla
+EXCEPCIONES = {
+    "pobla de tornesa": "pobla tornesa, la",
+}
+
 supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
 
 
@@ -26,6 +31,10 @@ def normalizar(texto):
     texto = re.sub(r"\s+", " ", texto)
     texto = re.sub(r"\s+,", ",", texto)
     return texto
+
+
+def sin_articulo_final(texto):
+    return re.sub(r",\s*(el|la|los|las)$", "", texto).strip()
 
 
 def detectar_columna(columnas, candidatos):
@@ -49,13 +58,40 @@ def obtener_indice_municipios():
         if not resp.data:
             break
         for m in resp.data:
-            indice[normalizar(m["nombre"])] = m
+            claves = set()
+            base = normalizar(m["nombre"])
+            claves.add(base)
+            claves.add(sin_articulo_final(base))
             for parte in m["nombre"].split("/"):
-                indice.setdefault(normalizar(parte), m)
+                p = normalizar(parte)
+                claves.add(p)
+                claves.add(sin_articulo_final(p))
+            for c in claves:
+                indice.setdefault(c, m)
         if len(resp.data) < tamano_pagina:
             break
         inicio += tamano_pagina
     return indice
+
+
+def buscar_municipio(indice, nombre_csv):
+    base = normalizar(nombre_csv)
+
+    if base in EXCEPCIONES:
+        base_excepcion = normalizar(EXCEPCIONES[base])
+        if base_excepcion in indice:
+            return indice[base_excepcion]
+
+    candidatos = {base, sin_articulo_final(base)}
+    for parte in nombre_csv.split("/"):
+        p = normalizar(parte)
+        candidatos.add(p)
+        candidatos.add(sin_articulo_final(p))
+
+    for c in candidatos:
+        if c in indice:
+            return indice[c]
+    return None
 
 
 def main():
@@ -75,7 +111,6 @@ def main():
 
     if not col_nombre or not col_web:
         print(f"No se pudo emparejar automáticamente. nombre={col_nombre}, web={col_web}")
-        print("Revisa la lista de columnas de arriba y ajusta CANDIDATOS_NOMBRE/CANDIDATOS_WEB.")
         return
 
     indice = obtener_indice_municipios()
@@ -89,7 +124,7 @@ def main():
         if not nombre or not web:
             continue
 
-        municipio = indice.get(normalizar(nombre))
+        municipio = buscar_municipio(indice, nombre)
         if municipio:
             supabase.table("municipios").update({"url_ayuntamiento": web}).eq("id", municipio["id"]).execute()
             actualizados += 1
