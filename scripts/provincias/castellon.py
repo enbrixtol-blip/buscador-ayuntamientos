@@ -36,12 +36,25 @@ def detectar_columna(columnas, candidatos):
 
 
 def obtener_indice_municipios():
-    resp = supabase.table("municipios").select("id, nombre").execute()
     indice = {}
-    for m in resp.data:
-        indice[normalizar(m["nombre"])] = m
-        for parte in m["nombre"].split("/"):
-            indice.setdefault(normalizar(parte), m)
+    inicio = 0
+    tamano_pagina = 1000
+    while True:
+        resp = (
+            supabase.table("municipios")
+            .select("id, nombre")
+            .range(inicio, inicio + tamano_pagina - 1)
+            .execute()
+        )
+        if not resp.data:
+            break
+        for m in resp.data:
+            indice[normalizar(m["nombre"])] = m
+            for parte in m["nombre"].split("/"):
+                indice.setdefault(normalizar(parte), m)
+        if len(resp.data) < tamano_pagina:
+            break
+        inicio += tamano_pagina
     return indice
 
 
