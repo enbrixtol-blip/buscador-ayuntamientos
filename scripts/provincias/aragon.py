@@ -12,7 +12,7 @@ SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 DATASET_URL = "https://zenodo.org/records/17573972/files/municipios_Aragon.csv?download=1"
 
 CANDIDATOS_NOMBRE = ["municipio", "nombre", "nombre_municipio", "poblacion"]
-CANDIDATOS_WEB = ["sitio_web_oficial", "sitio web oficial", "web", "pagina_web", "url"]
+CANDIDATOS_WEB = ["sitio_web", "sitio_web_oficial", "web", "pagina_web", "url"]
 CANDIDATOS_PROVINCIA = ["provincia"]
 
 PROVINCIAS_ARAGON = ["Huesca", "Zaragoza", "Teruel"]
