@@ -77,8 +77,9 @@ def obtener_indice_municipios():
 def buscar_municipio(indice, nombre_csv):
     base = normalizar(nombre_csv)
 
-    if base in EXCEPCIONES:
-        base_excepcion = normalizar(EXCEPCIONES[base])
+    clave_excepcion = sin_articulo_final(base)
+    if clave_excepcion in EXCEPCIONES:
+        base_excepcion = normalizar(EXCEPCIONES[clave_excepcion])
         if base_excepcion in indice:
             return indice[base_excepcion]
 
