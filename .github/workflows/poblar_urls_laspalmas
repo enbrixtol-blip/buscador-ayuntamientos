@@ -1,5 +1,5 @@
 
-name: Poblar URLs Madrid
+name: Poblar URLs Palmas, Las
 
 on:
   workflow_dispatch:
@@ -13,7 +13,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python scripts/provincias/ma.py
+      - run: python scripts/provincias/las_palmas.py
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
