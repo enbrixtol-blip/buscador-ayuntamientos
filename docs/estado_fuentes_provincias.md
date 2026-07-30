@@ -18,7 +18,7 @@ Estado: pendiente / en_progreso / hecho
 | Asturias | http://www.facc.info/?page_id=341 | B | pendiente | |
 | Ávila | https://www.diputacionavila.es/la-provincia/nuestros-pueblos/ | B | pendiente | |
 | Badajoz | http://www.dip-badajoz.es/municipios/municipio_dinamico/index.php | C | pendiente | |
-| Barcelona | http://www.diba.es/es/web/municipis | B | pendiente | http://do.diba.cat/api/dataset/municipis/format/json2 |
+| Barcelona | http://www.diba.es/es/web/municipis | B | hecho | http://do.diba.cat/api/dataset/municipis/format/json2 |
 | Burgos | http://www.burgos.es/provincia/geografia/municipios | B | hecho |"resuelto con CSV manual (scripts/provincias/data/burgos_urls.csv), no scraping — la web de la diputación requiere JavaScript" |
 | Cáceres | https://www.provinciadecaceres.es/mapa-de-ayuntamientos | B | pendiente | |
 | Cádiz | https://www.dipucadiz.es/diputacion/ | B | pendiente | |
@@ -40,7 +40,7 @@ Estado: pendiente / en_progreso / hecho
 | León | https://www.dipuleon.es/municipios/ayuntamientos-de-la-provincia/ | B | pendiente | |
 | Lleida/Lerida | http://www.diputaciolleida.cat/231-municipis/cercador-de-municipis/ | C | pendiente | |
 | Lugo | https://deputacionlugo.gal/es/ayuntamientos/a-provincia | B | pendiente | |
-| Madrid | https://www.comunidad.madrid/servicios/municipios/municipios-comunidad-madrid | B | pendiente | |
+| Madrid | https://www.comunidad.madrid/servicios/municipios/municipios-comunidad-madrid | B | hecho | |
 | Málaga | http://www.malaga.es/turismo/mapa/?tpl=3 | D | pendiente | Parece mapa turístico de la capital, no directorio provincial |
 | Melilla | https://www.melilla.es/melillaPortal/index.jsp | E | — | Ciudad única |
 | Murcia | https://www.regmurcia.com/servlet/s.Sl?METHOD=SELECCION_COMARCA&sit=c,372 | C | pendiente | |
