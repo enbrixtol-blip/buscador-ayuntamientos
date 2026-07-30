@@ -7,8 +7,8 @@ from supabase import create_client
 SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 
-# RUTA_CSV = "..."   <- deja la que ya tienes puesta
-# PROVINCIA = "..."  <- deja la que ya tienes puesta
+RUTA_CSV = "scripts/provincias/data/alava_urls.csv"
+PROVINCIA = "Araba/Álava"
 
 ARTICULOS = ["el", "la", "los", "las", "els", "les", "l'"]
 
