@@ -7,8 +7,10 @@ from supabase import create_client
 SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 
-RUTA_CSV = "scripts/provincias/data/cadiz_urls.csv"
-PROVINCIA = "Cádiz"
+# RUTA_CSV = "..."   <- deja la que ya tienes puesta
+# PROVINCIA = "..."  <- deja la que ya tienes puesta
+
+ARTICULOS = ["el", "la", "los", "las", "els", "les", "l'"]
 
 supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
 
@@ -23,6 +25,15 @@ def normalizar(texto):
 
 def sin_articulo_final(texto):
     return re.sub(r",\s*(el|la|los|las|els|les|l')$", "", texto).strip()
+
+
+def mover_articulo_al_final(texto):
+    for art in ARTICULOS:
+        prefijo = f"{art} "
+        if texto.startswith(prefijo):
+            resto = texto[len(prefijo):]
+            return f"{resto}, {art}"
+    return None
 
 
 def obtener_indice_municipios():
@@ -59,10 +70,19 @@ def obtener_indice_municipios():
 def buscar_municipio(indice, nombre_csv):
     base = normalizar(nombre_csv)
     candidatos = {base, sin_articulo_final(base)}
+
+    movido = mover_articulo_al_final(base)
+    if movido:
+        candidatos.add(movido)
+
     for parte in nombre_csv.split("/"):
         p = normalizar(parte)
         candidatos.add(p)
         candidatos.add(sin_articulo_final(p))
+        movido_p = mover_articulo_al_final(p)
+        if movido_p:
+            candidatos.add(movido_p)
+
     for c in candidatos:
         if c in indice:
             return indice[c]
