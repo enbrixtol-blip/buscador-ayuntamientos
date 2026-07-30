@@ -10,7 +10,7 @@ SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 DATASET_URL = "http://do.diba.cat/api/dataset/municipis/format/json2"
 PROVINCIA = "Barcelona"
 
-CANDIDATOS_NOMBRE = ["nom", "nombre", "municipi", "municipio"]
+CANDIDATOS_NOMBRE = ["municipi_nom", "nom", "nombre", "municipi", "municipio"]
 CANDIDATOS_WEB = ["web", "url", "pagina_web", "sitio_web"]
 
 supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
@@ -85,9 +85,8 @@ def main():
     datos = resp.json()
 
     # La estructura exacta del JSON puede variar; se maneja de forma flexible.
-    registros = datos if isinstance(datos, list) else datos.get("data", datos.get("results", []))
-
-    if not registros:
+    registros = datos.get("elements", datos if isinstance(datos, list) else [])
+        if not registros:
         print("No se han encontrado registros. Estructura del JSON recibido:")
         print(str(datos)[:1000])
         return
