@@ -1,17 +1,14 @@
+import csv
 import os
 import re
 import unicodedata
-import requests
 from supabase import create_client
 
 SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 
-DATASET_URL = "http://do.diba.cat/api/dataset/municipis/format/json2"
+RUTA_CSV = "scripts/provincias/data/barcelona_urls.csv"
 PROVINCIA = "Barcelona"
-
-CANDIDATOS_NOMBRE = ["municipi_nom", "nom", "nombre", "municipi", "municipio"]
-CANDIDATOS_WEB = ["web", "url", "pagina_web", "sitio_web"]
 
 supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
 
@@ -25,14 +22,7 @@ def normalizar(texto):
 
 
 def sin_articulo_final(texto):
-    return re.sub(r",\s*(el|la|los|las|l'|els|les)$", "", texto).strip()
-
-
-def detectar_campo(registro, candidatos):
-    for c in candidatos:
-        if c in registro:
-            return c
-    return None
+    return re.sub(r",\s*(el|la|los|las|els|les|l')$", "", texto).strip()
 
 
 def obtener_indice_municipios():
@@ -66,10 +56,10 @@ def obtener_indice_municipios():
     return indice
 
 
-def buscar_municipio(indice, nombre_fuente):
-    base = normalizar(nombre_fuente)
+def buscar_municipio(indice, nombre_csv):
+    base = normalizar(nombre_csv)
     candidatos = {base, sin_articulo_final(base)}
-    for parte in nombre_fuente.split("/"):
+    for parte in nombre_csv.split("/"):
         p = normalizar(parte)
         candidatos.add(p)
         candidatos.add(sin_articulo_final(p))
@@ -80,49 +70,31 @@ def buscar_municipio(indice, nombre_fuente):
 
 
 def main():
-    resp = requests.get(DATASET_URL, timeout=30)
-    resp.raise_for_status()
-    datos = resp.json()
+    with open(RUTA_CSV, encoding="utf-8") as f:
+        filas = list(csv.DictReader(f))
 
-    # La estructura exacta del JSON puede variar; se maneja de forma flexible.
-    registros = datos.get("elements", datos if isinstance(datos, list) else [])
-        if not registros:
-        print("No se han encontrado registros. Estructura del JSON recibido:")
-        print(str(datos)[:1000])
-        return
-
-    print(f"Registros recibidos: {len(registros)}")
-    print("Campos de ejemplo del primer registro:", list(registros[0].keys()))
-
-    col_nombre = detectar_campo(registros[0], CANDIDATOS_NOMBRE)
-    col_web = detectar_campo(registros[0], CANDIDATOS_WEB)
-
-    if not col_nombre or not col_web:
-        print(f"No se pudo emparejar automáticamente. nombre={col_nombre}, web={col_web}")
-        print("Ajusta CANDIDATOS_NOMBRE/CANDIDATOS_WEB según los campos de arriba.")
-        return
+    print(f"Filas en el CSV: {len(filas)}")
 
     indice = obtener_indice_municipios()
-    print(f"Municipios de Barcelona en la base de datos indexados: {len(indice)} claves")
+    print(f"Municipios de {PROVINCIA} en la base de datos: {len(indice)} claves indexadas")
 
     actualizados = 0
     no_emparejados = []
 
-    for registro in registros:
-        nombre = str(registro.get(col_nombre, "")).strip()
-        web = str(registro.get(col_web, "")).strip()
-        if not nombre or not web or web.lower() == "none":
+    for fila in filas:
+        nombre = fila["Municipio"].strip()
+        web = fila["URL oficial"].strip()
+        if not web:
             continue
 
         municipio = buscar_municipio(indice, nombre)
         if municipio:
             supabase.table("municipios").update({"url_ayuntamiento": web}).eq("id", municipio["id"]).execute()
             actualizados += 1
-            print(f"Actualizado: {nombre} -> {web}")
         else:
             no_emparejados.append(nombre)
 
-    print(f"\nTotal actualizados: {actualizados} de {len(registros)} registros")
+    print(f"\nTotal actualizados: {actualizados} de {len(filas)} filas del CSV")
     print(f"Sin emparejar ({len(no_emparejados)}): {no_emparejados}")
 
 
