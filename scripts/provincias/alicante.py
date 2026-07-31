@@ -1,7 +1,8 @@
+import csv
+import io
 import re
 import unicodedata
 import requests
-from bs4 import BeautifulSoup
 from supabase import create_client
 import os
 
@@ -9,7 +10,7 @@ import os
 SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 
-# URL de la fuente (la que tienes en tu tabla)
+# URL del dataset descargable (la que funciona en el móvil)
 FUENTE_URL = "https://datosabiertos.diputacionalicante.es/resource/csv/directorio-local"
 
 # Configuración de la provincia
@@ -19,7 +20,6 @@ supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
 
 
 def normalizar(texto):
-    """Normaliza texto: minúsculas, sin tildes, sin espacios extra."""
     texto = texto.strip().lower()
     texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("utf-8")
     texto = re.sub(r"\s+", " ", texto)
@@ -28,12 +28,10 @@ def normalizar(texto):
 
 
 def sin_articulo_final(texto):
-    """Elimina artículos finales ('el', 'la', 'los', 'las') para emparejamiento."""
     return re.sub(r",\s*(el|la|los|las)$", "", texto).strip()
 
 
 def obtener_indice_municipios():
-    """Construye un índice de municipios de la provincia desde Supabase."""
     indice = {}
     inicio = 0
     tamano_pagina = 1000
@@ -55,7 +53,6 @@ def obtener_indice_municipios():
             claves.add(base)
             claves.add(sin_articulo_final(base))
 
-            # Manejar nombres con "/" (ej: "Sant Joan d'Alacant" / "San Juan de Alicante")
             for parte in m["nombre"].split("/"):
                 p = normalizar(parte)
                 claves.add(p)
@@ -71,38 +68,59 @@ def obtener_indice_municipios():
     return indice
 
 
-def extraer_municipios_desde_html(html):
-    """Extrae los municipios y sus URLs del HTML de la fuente."""
-    soup = BeautifulSoup(html, "html.parser")
+def extraer_municipios_desde_csv(contenido):
+    """Lee el CSV y extrae pares (nombre, web) intentando detectar columnas."""
+    # Usar el delimitador correcto (punto y coma o coma)
+    try:
+        lector = csv.DictReader(io.StringIO(contenido), delimiter=';')
+        filas = list(lector)
+        if not filas:
+            lector = csv.DictReader(io.StringIO(contenido), delimiter=',')
+            filas = list(lector)
+        if not filas:
+            print("No se pudo leer el CSV con ; o ,")
+            return []
+    except Exception as e:
+        print(f"Error al leer el CSV: {e}")
+        return []
+
+    columnas = list(filas[0].keys())
+    print(f"Columnas detectadas: {columnas}")
+
+    # Buscar columna de nombre y web
+    col_nombre = None
+    col_web = None
+    candidatos_nombre = ["denominacion", "nombre", "municipio", "localidad", "poblacion", "ayuntamiento"]
+    candidatos_web = ["web", "url", "pagina_web", "direccion_web", "sitio_web"]
+
+    for col in columnas:
+        col_lower = col.lower().strip()
+        if col_nombre is None and any(c in col_lower for c in candidatos_nombre):
+            col_nombre = col
+        if col_web is None and any(c in col_lower for c in candidatos_web):
+            col_web = col
+
+    if not col_nombre or not col_web:
+        print(f"No se encontraron columnas clave. nombre: {col_nombre}, web: {col_web}")
+        # Listar columnas para depuración
+        print("Columnas disponibles:", columnas)
+        return []
+
     municipios = []
-
-    # Buscar la tabla o lista que contiene los municipios
-    # (Esto es un ejemplo, habrá que ajustarlo según la estructura real)
-    # Posibles contenedores: tabla, lista desordenada (ul), o enlaces directos
-
-    # Estrategia: buscar todos los enlaces que parezcan municipios
-    for enlace in soup.find_all("a", href=True):
-        texto = enlace.get_text(strip=True)
-        url = enlace["href"]
-
-        # Filtrar para quedarnos solo con enlaces que parezcan municipios
-        # (Estos filtros se ajustarán al analizar la página real)
-        if texto and "http" in url and len(texto) > 2:
-            # Evitar enlaces genéricos (ej: "Inicio", "Contacto")
-            if not any(palabra in texto.lower() for palabra in ["inicio", "contacto", "mapa", "web", "email"]):
-                municipios.append({
-                    "nombre": texto,
-                    "url": url
-                })
+    for fila in filas:
+        nombre = fila.get(col_nombre, "").strip()
+        url = fila.get(col_web, "").strip()
+        if nombre and url:
+            # Limpiar URL si es necesario
+            if not url.startswith("http"):
+                url = "http://" + url
+            municipios.append({"nombre": nombre, "url": url})
 
     return municipios
 
 
 def buscar_municipio(indice, nombre_csv):
-    """Busca un municipio en el índice usando diferentes variantes del nombre."""
     base = normalizar(nombre_csv)
-
-    # Probar todas las variantes
     candidatos = {base, sin_articulo_final(base)}
 
     for parte in nombre_csv.split("/"):
@@ -118,42 +136,37 @@ def buscar_municipio(indice, nombre_csv):
 
 
 def main():
-    print(f"📥 Obteniendo datos de {FUENTE_URL}...")
+    print(f"📥 Descargando dataset de {FUENTE_URL}...")
 
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
-        respuesta = requests.get(FUENTE_URL, headers=headers, timeout=30)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+
+    try:
+        respuesta = requests.get(FUENTE_URL, headers=headers, timeout=60)
         respuesta.raise_for_status()
-        html = respuesta.text
+        contenido = respuesta.text
     except Exception as e:
-        print(f"❌ Error al obtener la página: {e}")
+        print(f"❌ Error al descargar el dataset: {e}")
         return
 
-    # Extraer municipios del HTML
-    municipios_origen = extraer_municipios_desde_html(html)
+    municipios_origen = extraer_municipios_desde_csv(contenido)
 
     if not municipios_origen:
-        print("⚠️ No se encontraron municipios en la página.")
-        print("   Puede que la estructura haya cambiado o requiera JavaScript.")
-        print("   Sugerencia: revisar manualmente y ajustar el selector.")
+        print("⚠️ No se encontraron municipios en el CSV.")
         return
 
-    print(f"✅ Encontrados {len(municipios_origen)} municipios en la fuente.")
+    print(f"✅ Encontrados {len(municipios_origen)} municipios en el dataset.")
 
-    # Obtener índice de municipios de Supabase
     indice = obtener_indice_municipios()
     print(f"📊 {len(indice)} municipios en la base de datos para {PROVINCIA}.")
 
-    # Actualizar cada municipio
     actualizados = 0
     no_emparejados = []
 
     for item in municipios_origen:
         nombre = item["nombre"]
         url = item["url"]
-
-        # Asegurar que la URL es absoluta
-        if url.startswith("/"):
-            url = "https://documentacion.diputacionalicante.es" + url
 
         municipio = buscar_municipio(indice, nombre)
 
@@ -167,7 +180,6 @@ def main():
             no_emparejados.append(nombre)
             print(f"⚠️ No emparejado: {nombre}")
 
-    # Resumen final
     print("\n" + "="*50)
     print(f"📈 Total actualizados: {actualizados} de {len(municipios_origen)}")
     print(f"❌ No emparejados ({len(no_emparejados)}): {no_emparejados[:10]}" + ("..." if len(no_emparejados) > 10 else ""))
