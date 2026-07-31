@@ -10,7 +10,7 @@ SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 
 # URL de la fuente (la que tienes en tu tabla)
-FUENTE_URL = "https://documentacion.diputacionalicante.es/dlocal.asp"
+FUENTE_URL = "https://diputacionalicante.es/dlocal.asp"
 
 # Configuración de la provincia
 PROVINCIA = "Alicante/Alacant"
