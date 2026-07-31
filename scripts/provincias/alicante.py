@@ -10,7 +10,7 @@ SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 
 # URL de la fuente (la que tienes en tu tabla)
-FUENTE_URL = "https://diputacionalicante.es/dlocal.asp"
+FUENTE_URL = "https://datosabiertos.diputacionalicante.es/resource/csv/directorio-local"
 
 # Configuración de la provincia
 PROVINCIA = "Alicante/Alacant"
@@ -120,8 +120,8 @@ def buscar_municipio(indice, nombre_csv):
 def main():
     print(f"📥 Obteniendo datos de {FUENTE_URL}...")
 
-    try:
-        respuesta = requests.get(FUENTE_URL, timeout=30)
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
+        respuesta = requests.get(FUENTE_URL, headers=headers, timeout=30)
         respuesta.raise_for_status()
         html = respuesta.text
     except Exception as e:
