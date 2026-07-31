@@ -11,7 +11,7 @@ Estado: pendiente / en_progreso / hecho
 
 | Provincia | URL fuente | Tipo | Estado | Notas |
 |---|---|---|---|---|
-| Alacant/Alicante | https://documentacion.diputacionalicante.es/dlocal.asp | B | pendiente | |
+| Alacant/Alicante | https://documentacion.diputacionalicante.es/dlocal.asp | B | hecho | |
 | Araba/Álava | https://www.araba.eus/elva/Nomenclator/ELVA5003NomMuni.asp | C | hecho | 51/51, CSV manual (scripts/provincias/alava.py) |
 | Albacete | https://www.albacete.es/es | D | pendiente | Enlaza solo a la capital, no a un directorio |
 | Almería | http://www.dipalme.org/ | B | pendiente | |
