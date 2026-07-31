@@ -9,7 +9,7 @@ SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 
 # Ruta al archivo CSV local (subido al repositorio)
-RUTA_CSV = "scripts/provincias/data/directorio-local.csv"
+RUTA_CSV = "scripts/provincias/data/alicante_urls.csv"
 
 # Configuración de la provincia
 PROVINCIA = "Alicante/Alacant"
