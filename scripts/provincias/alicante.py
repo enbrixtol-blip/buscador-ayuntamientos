@@ -9,7 +9,7 @@ SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 
 # Ruta al archivo CSV local (subido al repositorio)
-RUTA_CSV = "scripts/provincias/data/alicante_urls.csv"
+RUTA_CSV = "scripts/provincias/data/directorio-local.csv"
 
 # Configuración de la provincia
 PROVINCIA = "Alicante/Alacant"
@@ -18,6 +18,7 @@ supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
 
 
 def normalizar(texto):
+    """Normalización básica (sin tildes, minúsculas, sin espacios extra)."""
     texto = texto.strip().lower()
     texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("utf-8")
     texto = re.sub(r"\s+", " ", texto)
@@ -25,8 +26,28 @@ def normalizar(texto):
     return texto
 
 
-def sin_articulo_final(texto):
-    return re.sub(r",\s*(el|la|los|las)$", "", texto).strip()
+def normalizar_para_busqueda(texto):
+    """Normalización avanzada para buscar en el índice."""
+    texto = texto.strip().lower()
+    
+    # Quitar tildes
+    texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("utf-8")
+    
+    # Eliminar todo lo que esté entre paréntesis
+    texto = re.sub(r"\([^)]*\)", "", texto).strip()
+    
+    # Manejar artículos delante (ej: "La Romana" -> "Romana, la")
+    for articulo in ["los ", "las ", "la ", "el "]:
+        if texto.startswith(articulo):
+            resto = texto[len(articulo):].strip()
+            texto = f"{resto}, {articulo.strip()}"
+            break
+    
+    # Limpiar espacios y comas
+    texto = re.sub(r"\s+", " ", texto)
+    texto = re.sub(r"\s+,", ",", texto)
+    
+    return texto
 
 
 def obtener_indice_municipios():
@@ -47,14 +68,14 @@ def obtener_indice_municipios():
 
         for m in resp.data:
             claves = set()
-            base = normalizar(m["nombre"])
+            base = normalizar_para_busqueda(m["nombre"])
             claves.add(base)
-            claves.add(sin_articulo_final(base))
+            claves.add(normalizar(m["nombre"]))
 
+            # Añadir también el nombre original limpio
             for parte in m["nombre"].split("/"):
-                p = normalizar(parte)
+                p = normalizar_para_busqueda(parte)
                 claves.add(p)
-                claves.add(sin_articulo_final(p))
 
             for c in claves:
                 indice.setdefault(c, m)
@@ -67,16 +88,13 @@ def obtener_indice_municipios():
 
 
 def extraer_municipios_desde_csv(ruta_csv):
-    """Lee el CSV desde la ruta local y extrae pares (nombre, web)."""
     try:
         with open(ruta_csv, 'r', encoding='utf-8') as f:
             contenido = f.read()
     except FileNotFoundError:
         print(f"❌ No se encontró el archivo en: {ruta_csv}")
-        print("   Asegúrate de que el archivo está en scripts/provincias/data/directorio-local.csv")
         return []
 
-    # Intentar con punto y coma o coma
     try:
         lector = csv.DictReader(contenido.splitlines(), delimiter=';')
         filas = list(lector)
@@ -93,7 +111,6 @@ def extraer_municipios_desde_csv(ruta_csv):
     columnas = list(filas[0].keys())
     print(f"Columnas detectadas: {columnas}")
 
-    # Buscar columna de nombre y web
     col_nombre = None
     col_web = None
     candidatos_nombre = ["mu_nombre", "denominacion", "nombre", "municipio", "localidad"]
@@ -116,7 +133,6 @@ def extraer_municipios_desde_csv(ruta_csv):
         nombre = fila.get(col_nombre, "").strip()
         url = fila.get(col_web, "").strip()
         if nombre and url:
-            # Limpiar URL si es necesario
             if not url.startswith("http"):
                 url = "http://" + url
             municipios.append({"nombre": nombre, "url": url})
@@ -126,18 +142,18 @@ def extraer_municipios_desde_csv(ruta_csv):
 
 
 def buscar_municipio(indice, nombre_csv):
-    base = normalizar(nombre_csv)
-    candidatos = {base, sin_articulo_final(base)}
-
+    """Busca usando la nueva normalización avanzada."""
+    base = normalizar_para_busqueda(nombre_csv)
+    candidatos = {base, normalizar(nombre_csv)}
+    
     for parte in nombre_csv.split("/"):
-        p = normalizar(parte)
+        p = normalizar_para_busqueda(parte)
         candidatos.add(p)
-        candidatos.add(sin_articulo_final(p))
-
+    
     for c in candidatos:
         if c in indice:
             return indice[c]
-
+    
     return None
 
 
