@@ -4,21 +4,17 @@ import unicodedata
 from supabase import create_client
 import os
 
-# Configuración de Supabase
 SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 
-# Ruta al archivo CSV local (subido al repositorio)
 RUTA_CSV = "scripts/provincias/data/alicante_urls.csv"
-
-# Configuración de la provincia
 PROVINCIA = "Alicante/Alacant"
 
 supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
 
 
 def normalizar(texto):
-    """Normalización básica (sin tildes, minúsculas, sin espacios extra)."""
+    """Normalización básica: minúsculas, sin tildes, sin espacios extra."""
     texto = texto.strip().lower()
     texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("utf-8")
     texto = re.sub(r"\s+", " ", texto)
@@ -26,31 +22,51 @@ def normalizar(texto):
     return texto
 
 
-def normalizar_para_busqueda(texto):
-    """Normalización avanzada para buscar en el índice."""
+def extraer_y_mover_articulo(texto):
+    """
+    Detecta artículos (el, la, los, las, l', d') y los mueve al final.
+    Ej: "Atzúbia (L')" -> "atzubia, l'"
+        "La Romana" -> "romana, la"
+        "Castell de Guadalest (El)" -> "castell de guadalest, el"
+    """
+    texto_original = texto
     texto = texto.strip().lower()
     
-    # Quitar tildes
+    # 1. Quitar tildes
     texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("utf-8")
     
-    # Eliminar todo lo que esté entre paréntesis
-    texto = re.sub(r"\([^)]*\)", "", texto).strip()
+    # 2. Extraer artículo entre paréntesis: (L'), (El), (La), (Los), (Las)
+    #    y también (l'), (el), (la), (los), (las)
+    patron_par = re.search(r'\(([lL]\'|[dD]\'|[eE]l|[lL]a|[lL]os|[lL]as)\)', texto)
+    if patron_par:
+        articulo = patron_par.group(1).lower()
+        # Mapear apóstrofes a su forma normalizada
+        if articulo == "l'":
+            articulo = "el"  # Normalizamos para comparar
+        elif articulo == "d'":
+            articulo = "de"
+        # Quitar el paréntesis y el artículo del nombre
+        texto = re.sub(r'\s*\([lL]\'|[dD]\'|[eE]l|[lL]a|[lL]os|[lL]as\)', '', texto).strip()
+        # Añadir artículo al final
+        texto = f"{texto}, {articulo}"
+    else:
+        # 3. Si no hay paréntesis, buscar artículo al principio
+        for articulo in ["los ", "las ", "la ", "el "]:
+            if texto.startswith(articulo):
+                resto = texto[len(articulo):].strip()
+                texto = f"{resto}, {articulo.strip()}"
+                break
     
-    # Manejar artículos delante (ej: "La Romana" -> "Romana, la")
-    for articulo in ["los ", "las ", "la ", "el "]:
-        if texto.startswith(articulo):
-            resto = texto[len(articulo):].strip()
-            texto = f"{resto}, {articulo.strip()}"
-            break
-    
-    # Limpiar espacios y comas
+    # 4. Limpiar espacios y comas
     texto = re.sub(r"\s+", " ", texto)
     texto = re.sub(r"\s+,", ",", texto)
+    texto = re.sub(r",\s*,\s*", ", ", texto)  # Eliminar comas dobles
     
     return texto
 
 
 def obtener_indice_municipios():
+    """Construye un índice con múltiples variantes del nombre para cada municipio."""
     indice = {}
     inicio = 0
     tamano_pagina = 1000
@@ -68,15 +84,26 @@ def obtener_indice_municipios():
 
         for m in resp.data:
             claves = set()
-            base = normalizar_para_busqueda(m["nombre"])
-            claves.add(base)
-            claves.add(normalizar(m["nombre"]))
-
-            # Añadir también el nombre original limpio
-            for parte in m["nombre"].split("/"):
-                p = normalizar_para_busqueda(parte)
+            nombre = m["nombre"]
+            
+            # 1. El nombre original normalizado
+            claves.add(normalizar(nombre))
+            
+            # 2. El nombre con artículo movido (por si ya está normalizado)
+            claves.add(extraer_y_mover_articulo(nombre))
+            
+            # 3. Cada parte del nombre (para nombres con /)
+            for parte in nombre.split("/"):
+                p = normalizar(parte)
                 claves.add(p)
-
+                claves.add(extraer_y_mover_articulo(parte))
+            
+            # 4. Versión sin artículo al final (para casos como "San Isidro")
+            for clave in list(claves):
+                if "," in clave:
+                    sin_articulo = re.sub(r",\s*(el|la|los|las|l'|d')$", "", clave).strip()
+                    claves.add(sin_articulo)
+            
             for c in claves:
                 indice.setdefault(c, m)
 
@@ -88,6 +115,7 @@ def obtener_indice_municipios():
 
 
 def extraer_municipios_desde_csv(ruta_csv):
+    """Lee el CSV y extrae pares (nombre, web)."""
     try:
         with open(ruta_csv, 'r', encoding='utf-8') as f:
             contenido = f.read()
@@ -142,14 +170,28 @@ def extraer_municipios_desde_csv(ruta_csv):
 
 
 def buscar_municipio(indice, nombre_csv):
-    """Busca usando la nueva normalización avanzada."""
-    base = normalizar_para_busqueda(nombre_csv)
-    candidatos = {base, normalizar(nombre_csv)}
+    """Busca el municipio normalizando el nombre del CSV con la misma lógica."""
+    # Generar todas las variantes posibles del nombre del CSV
+    candidatos = set()
     
+    # 1. Normalización básica
+    candidatos.add(normalizar(nombre_csv))
+    
+    # 2. Mover artículo (si lo tiene)
+    candidatos.add(extraer_y_mover_articulo(nombre_csv))
+    
+    # 3. Cada parte del nombre (para nombres con /)
     for parte in nombre_csv.split("/"):
-        p = normalizar_para_busqueda(parte)
-        candidatos.add(p)
+        candidatos.add(normalizar(parte))
+        candidatos.add(extraer_y_mover_articulo(parte))
     
+    # 4. Versión sin artículo al final
+    for c in list(candidatos):
+        if "," in c:
+            sin_articulo = re.sub(r",\s*(el|la|los|las|l'|d')$", "", c).strip()
+            candidatos.add(sin_articulo)
+    
+    # Buscar en el índice
     for c in candidatos:
         if c in indice:
             return indice[c]
@@ -169,7 +211,7 @@ def main():
     print(f"✅ Encontrados {len(municipios_origen)} municipios en el dataset.")
 
     indice = obtener_indice_municipios()
-    print(f"📊 {len(indice)} municipios en la base de datos para {PROVINCIA}.")
+    print(f"📊 {len(indice)} claves en el índice para {PROVINCIA}.")
 
     actualizados = 0
     no_emparejados = []
