@@ -7,7 +7,9 @@ import os
 SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 
+# Ruta al archivo CSV local
 RUTA_CSV = "scripts/provincias/data/alicante_urls.csv"
+
 PROVINCIA = "Alicante/Alacant"
 
 supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
@@ -25,48 +27,40 @@ def normalizar(texto):
 def extraer_y_mover_articulo(texto):
     """
     Detecta artículos (el, la, los, las, l', d') y los mueve al final.
-    Ej: "Atzúbia (L')" -> "atzubia, l'"
-        "La Romana" -> "romana, la"
-        "Castell de Guadalest (El)" -> "castell de guadalest, el"
     """
-    texto_original = texto
     texto = texto.strip().lower()
-    
-    # 1. Quitar tildes
+    # Quitar tildes
     texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("utf-8")
     
-    # 2. Extraer artículo entre paréntesis: (L'), (El), (La), (Los), (Las)
-    #    y también (l'), (el), (la), (los), (las)
-    patron_par = re.search(r'\(([lL]\'|[dD]\'|[eE]l|[lL]a|[lL]os|[lL]as)\)', texto)
-    if patron_par:
-        articulo = patron_par.group(1).lower()
-        # Mapear apóstrofes a su forma normalizada
-        if articulo == "l'":
-            articulo = "el"  # Normalizamos para comparar
-        elif articulo == "d'":
-            articulo = "de"
-        # Quitar el paréntesis y el artículo del nombre
+    # 1. Buscar artículo entre paréntesis: (l'), (el), (la), (los), (las)
+    patron = re.search(r'\(([lL]\'|[dD]\'|[eE]l|[lL]a|[lL]os|[lL]as)\)', texto)
+    if patron:
+        articulo = patron.group(1).lower()
+        # Eliminar el paréntesis y el artículo
         texto = re.sub(r'\s*\([lL]\'|[dD]\'|[eE]l|[lL]a|[lL]os|[lL]as\)', '', texto).strip()
-        # Añadir artículo al final
-        texto = f"{texto}, {articulo}"
+        # Añadir artículo al final, manteniendo el apóstrofe
+        if articulo in ["l'", "d'"]:
+            texto = f"{texto}, {articulo}"
+        else:
+            texto = f"{texto}, {articulo}"
     else:
-        # 3. Si no hay paréntesis, buscar artículo al principio
+        # 2. Si no hay paréntesis, buscar artículo al principio
         for articulo in ["los ", "las ", "la ", "el "]:
             if texto.startswith(articulo):
                 resto = texto[len(articulo):].strip()
                 texto = f"{resto}, {articulo.strip()}"
                 break
     
-    # 4. Limpiar espacios y comas
+    # 3. Limpiar espacios y comas
     texto = re.sub(r"\s+", " ", texto)
     texto = re.sub(r"\s+,", ",", texto)
-    texto = re.sub(r",\s*,\s*", ", ", texto)  # Eliminar comas dobles
+    texto = re.sub(r",\s*,\s*", ", ", texto)
     
     return texto
 
 
 def obtener_indice_municipios():
-    """Construye un índice con múltiples variantes del nombre para cada municipio."""
+    """Construye un índice con múltiples variantes del nombre."""
     indice = {}
     inicio = 0
     tamano_pagina = 1000
@@ -86,19 +80,18 @@ def obtener_indice_municipios():
             claves = set()
             nombre = m["nombre"]
             
-            # 1. El nombre original normalizado
+            # 1. Nombre normalizado (sin tildes)
             claves.add(normalizar(nombre))
             
-            # 2. El nombre con artículo movido (por si ya está normalizado)
+            # 2. Nombre con artículo movido
             claves.add(extraer_y_mover_articulo(nombre))
             
             # 3. Cada parte del nombre (para nombres con /)
             for parte in nombre.split("/"):
-                p = normalizar(parte)
-                claves.add(p)
+                claves.add(normalizar(parte))
                 claves.add(extraer_y_mover_articulo(parte))
             
-            # 4. Versión sin artículo al final (para casos como "San Isidro")
+            # 4. Versión sin artículo al final
             for clave in list(claves):
                 if "," in clave:
                     sin_articulo = re.sub(r",\s*(el|la|los|las|l'|d')$", "", clave).strip()
@@ -170,17 +163,16 @@ def extraer_municipios_desde_csv(ruta_csv):
 
 
 def buscar_municipio(indice, nombre_csv):
-    """Busca el municipio normalizando el nombre del CSV con la misma lógica."""
-    # Generar todas las variantes posibles del nombre del CSV
+    """Busca usando todas las variantes posibles del nombre."""
     candidatos = set()
     
     # 1. Normalización básica
     candidatos.add(normalizar(nombre_csv))
     
-    # 2. Mover artículo (si lo tiene)
+    # 2. Mover artículo
     candidatos.add(extraer_y_mover_articulo(nombre_csv))
     
-    # 3. Cada parte del nombre (para nombres con /)
+    # 3. Cada parte del nombre
     for parte in nombre_csv.split("/"):
         candidatos.add(normalizar(parte))
         candidatos.add(extraer_y_mover_articulo(parte))
