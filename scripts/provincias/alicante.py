@@ -12,6 +12,9 @@ PROVINCIA = "Alicante/Alacant"
 
 supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
 
+# Patrón corregido: agrupa TODAS las opciones dentro del paréntesis
+PATRON_ART_PARENTESIS = r"\((l'|d'|el|la|los|las|els)\)"
+
 
 def normalizar(texto):
     """Normalización básica: minúsculas, sin tildes, sin espacios extra."""
@@ -24,35 +27,33 @@ def normalizar(texto):
 
 def extraer_articulo_y_normalizar(texto):
     """
-    Detecta artículos (el, la, los, las, l', d') en paréntesis o al principio,
+    Detecta artículos (el, la, los, las, els, l', d') en paréntesis o al principio,
     y los mueve al final con coma.
     """
-    texto_original = texto
     texto = texto.strip().lower()
     # Quitar tildes
     texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("utf-8")
-    
-    # 1. Buscar artículo entre paréntesis: (l'), (el), (la), (los), (las)
-    patron = re.search(r'\(([lL]\'|[dD]\'|[eE]l|[lL]a|[lL]os|[lL]as)\)', texto)
-    if patron:
-        articulo = patron.group(1).lower()
-        # Eliminar el paréntesis y el artículo
-        texto_sin_parentesis = re.sub(r'\s*\([lL]\'|[dD]\'|[eE]l|[lL]a|[lL]os|[lL]as\)', '', texto).strip()
+
+    # 1. Buscar artículo entre paréntesis con el patrón corregido
+    m = re.search(PATRON_ART_PARENTESIS, texto)
+    if m:
+        articulo = m.group(1)
+        # Eliminar el paréntesis y el artículo del nombre
+        resto = re.sub(PATRON_ART_PARENTESIS, "", texto).strip()
         # Añadir artículo al final con coma
-        texto = f"{texto_sin_parentesis}, {articulo}"
+        texto = f"{resto}, {articulo}"
     else:
         # 2. Si no hay paréntesis, buscar artículo al principio
-        for articulo in ["los ", "las ", "la ", "el "]:
+        for articulo in ["los ", "las ", "els ", "la ", "el "]:
             if texto.startswith(articulo):
                 resto = texto[len(articulo):].strip()
                 texto = f"{resto}, {articulo.strip()}"
                 break
-    
+
     # 3. Limpiar espacios y comas
     texto = re.sub(r"\s+", " ", texto)
     texto = re.sub(r"\s+,", ",", texto)
     texto = re.sub(r",\s*,\s*", ", ", texto)
-    
     return texto
 
 
@@ -77,31 +78,31 @@ def obtener_indice_municipios():
             claves = set()
             nombre = m["nombre"]
             nombre_norm = normalizar(nombre)
-            
+
             # 1. El nombre normalizado
             claves.add(nombre_norm)
-            
+
             # 2. El nombre sin artículo al final
             if "," in nombre_norm:
-                sin_articulo = re.sub(r",\s*(el|la|los|las|l'|d')$", "", nombre_norm).strip()
+                sin_articulo = re.sub(r",\s*(el|la|los|las|els|l'|d')$", "", nombre_norm).strip()
                 claves.add(sin_articulo)
-            
+
             # 3. El nombre con el artículo movido al final (si tiene artículo delante)
-            for articulo in ["los ", "las ", "la ", "el "]:
+            for articulo in ["los ", "las ", "els ", "la ", "el "]:
                 if nombre_norm.startswith(articulo):
                     resto = nombre_norm[len(articulo):].strip()
                     con_articulo_final = f"{resto}, {articulo.strip()}"
                     claves.add(con_articulo_final)
                     break
-            
+
             # 4. Cada parte del nombre (para nombres con /)
             for parte in nombre.split("/"):
                 parte_norm = normalizar(parte)
                 claves.add(parte_norm)
                 if "," in parte_norm:
-                    sin_articulo = re.sub(r",\s*(el|la|los|las|l'|d')$", "", parte_norm).strip()
+                    sin_articulo = re.sub(r",\s*(el|la|los|las|els|l'|d')$", "", parte_norm).strip()
                     claves.add(sin_articulo)
-            
+
             for c in claves:
                 indice.setdefault(c, m)
 
@@ -169,29 +170,29 @@ def extraer_municipios_desde_csv(ruta_csv):
 def buscar_municipio(indice, nombre_csv):
     """Busca usando todas las variantes posibles del nombre."""
     candidatos = set()
-    
+
     # 1. Normalización básica
     candidatos.add(normalizar(nombre_csv))
-    
+
     # 2. Mover artículo (con coma)
     candidatos.add(extraer_articulo_y_normalizar(nombre_csv))
-    
+
     # 3. Cada parte del nombre (para nombres con /)
     for parte in nombre_csv.split("/"):
         candidatos.add(normalizar(parte))
         candidatos.add(extraer_articulo_y_normalizar(parte))
-    
+
     # 4. Versión sin artículo al final
     for c in list(candidatos):
         if "," in c:
-            sin_articulo = re.sub(r",\s*(el|la|los|las|l'|d')$", "", c).strip()
+            sin_articulo = re.sub(r",\s*(el|la|los|las|els|l'|d')$", "", c).strip()
             candidatos.add(sin_articulo)
-    
+
     # Buscar en el índice
     for c in candidatos:
         if c in indice:
             return indice[c]
-    
+
     return None
 
 
