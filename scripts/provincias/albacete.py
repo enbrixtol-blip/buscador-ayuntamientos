@@ -17,20 +17,29 @@ def main():
     print(f"Filas en el CSV: {len(filas)}")
 
     actualizados = 0
-    sin_url = []
+    no_encontrados = []
 
     for fila in filas:
-        id_municipio = fila["id"].strip()
+        codigo_ine = fila["codigo_ine"].strip()
+        nombre = fila["nombre"].strip()
         web = fila["url_ayuntamiento"].strip()
+
         if not web:
-            sin_url.append(fila["nombre"])
             continue
 
-        supabase.table("municipios").update({"url_ayuntamiento": web}).eq("id", id_municipio).execute()
-        actualizados += 1
+        resp = (
+            supabase.table("municipios")
+            .update({"url_ayuntamiento": web})
+            .eq("codigo_ine", codigo_ine)
+            .execute()
+        )
+        if resp.data:
+            actualizados += 1
+        else:
+            no_encontrados.append(f"{nombre} ({codigo_ine})")
 
     print(f"\nTotal actualizados: {actualizados} de {len(filas)} filas del CSV")
-    print(f"Sin URL en el CSV ({len(sin_url)}): {sin_url}")
+    print(f"No encontrados por codigo_ine ({len(no_encontrados)}): {no_encontrados}")
 
 
 if __name__ == "__main__":
