@@ -16,7 +16,7 @@ Estado: pendiente / en_progreso / hecho
 | Albacete | https://www.albacete.es/es | D | pendiente | Enlaza solo a la capital, no a un directorio |
 | Almería | http://www.dipalme.org/ | B | pendiente | |
 | Asturias | http://www.facc.info/?page_id=341 | B | pendiente | |
-| Ávila | https://www.diputacionavila.es/la-provincia/nuestros-pueblos/ | B | pendiente | |
+| Ávila | https://www.diputacionavila.es/la-provincia/nuestros-pueblos/ | B | hecho | |
 | Badajoz | http://www.dip-badajoz.es/municipios/municipio_dinamico/index.php | C | pendiente | |
 | Barcelona | http://www.diba.es/es/web/municipis | B | hecho | 311/311, CSV manual (scripts/provincias/barcelona.py); API oficial http://do.diba.cat/api/dataset/municipis/format/json2 no se usó por incompatibilidad de estructura |
 | Burgos | http://www.burgos.es/provincia/geografia/municipios | B | hecho | 371/371, resuelto con CSV manual (scripts/provincias/data/burgos_urls.csv), no scraping — la web de la diputación requiere JavaScript |
@@ -46,7 +46,7 @@ Estado: pendiente / en_progreso / hecho
 | Murcia | https://www.regmurcia.com/servlet/s.Sl?METHOD=SELECCION_COMARCA&sit=c,372 | C | hecho | 45/45, CSV manual (scripts/provincias/murcia.py) |
 | Navarra | http://www.navarra.es/home_es/Navarra/272+Municipios/ | B | pendiente | |
 | Ourense/Orense | https://www.depourense.gal/es/concellos/directorio | B | pendiente | |
-| Palencia | https://aytos.dip-palencia.es/lista-de-municipios/ | B | pendiente | |
+| Palencia | https://aytos.dip-palencia.es/lista-de-municipios/ | B | hecho | |
 | Palmas, Las | https://cabildo.grancanaria.com/asociaciones-y-ayuntamientos | B | hecho | 34/34, CSV manual corregido y verificado (scripts/provincias/las_palmas.py) |
 | Pontevedra | https://www.depo.gal/es/concellos | B | pendiente | |
 | Rioja, La | http://www.larioja.org/npRioja/default/defaultpage.jsp?idtab=559068&id_str=6&id_ele=854&id_opt=0 | C | pendiente | |
