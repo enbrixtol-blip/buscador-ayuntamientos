@@ -1,0 +1,83 @@
+id,nombre,provincia,ccaa,codigo_ine,url_ayuntamiento,url_fuente_noticias,tipo_fuente,latitud,longitud,created_at
+52,Abengibre,Albacete,Castilla-La Mancha,02001,https://www.abengibre.es/,,,39.2132431,-1.5383088,2026-07-28 00:09:57.250838+00
+53,Alatoz,Albacete,Castilla-La Mancha,02002,https://www.alatoz.es/,,,39.0955185,-1.3610539,2026-07-28 00:09:59.065966+00
+54,Albacete,Albacete,Castilla-La Mancha,02003,https://www.albacete.es/,,,38.9950921,-1.8559154,2026-07-28 00:10:01.129881+00
+55,Albatana,Albacete,Castilla-La Mancha,02004,https://www.albatana.es/,,,38.5709891,-1.5226396,2026-07-28 00:10:02.947752+00
+56,Alborea,Albacete,Castilla-La Mancha,02005,https://www.alborea.es/,,,39.3002939,-1.3859665,2026-07-28 00:10:04.756123+00
+57,Alcadozo,Albacete,Castilla-La Mancha,02006,https://www.alcadozo.es/,,,38.7497,-2.0319,2026-07-28 00:10:06.500000+00
+58,Alcalá del Júcar,Albacete,Castilla-La Mancha,02007,https://www.alcaladeljucar.es/,,,39.1925,-1.4302,2026-07-28 00:10:08.500000+00
+59,Alcaraz,Albacete,Castilla-La Mancha,02008,https://www.alcaraz.es/,,,38.6658,-2.4897,2026-07-28 00:10:10.500000+00
+60,Almansa,Albacete,Castilla-La Mancha,02009,https://www.almansa.es/,,,38.8688,-1.0975,2026-07-28 00:10:12.500000+00
+61,Alpera,Albacete,Castilla-La Mancha,02010,https://www.alpera.es/,,,38.9591,-1.2319,2026-07-28 00:10:14.500000+00
+62,Ayna,Albacete,Castilla-La Mancha,02011,https://www.ayna.es/,,,38.5530,-2.0716,2026-07-28 00:10:16.500000+00
+63,Balazote,Albacete,Castilla-La Mancha,02012,https://www.balazote.es/,,,38.8286,-2.1536,2026-07-28 00:10:18.500000+00
+64,Balsa de Ves,Albacete,Castilla-La Mancha,02013,https://www.balsadeves.es/,,,39.2633,-1.1897,2026-07-28 00:10:20.500000+00
+65,El Bonillo,Albacete,Castilla-La Mancha,02014,https://www.elbonillo.es/,,,38.9525,-2.5391,2026-07-28 00:10:22.500000+00
+66,Carcelén,Albacete,Castilla-La Mancha,02015,https://www.carcelen.es/,,,39.1008,-1.3094,2026-07-28 00:10:24.500000+00
+67,Casas de Juan Núñez,Albacete,Castilla-La Mancha,02016,https://www.casasdejuannunez.es/,,,39.0622,-1.5583,2026-07-28 00:10:26.500000+00
+68,Casas de Lázaro,Albacete,Castilla-La Mancha,02017,https://www.casasdelazaro.es/,,,38.7725,-2.2594,2026-07-28 00:10:28.500000+00
+69,Casas de Ves,Albacete,Castilla-La Mancha,02018,https://www.casasdeves.es/,,,39.2486,-1.3263,2026-07-28 00:10:30.500000+00
+70,Casas-Ibáñez,Albacete,Castilla-La Mancha,02019,https://www.casasibanez.es/,,,39.3083,-1.4680,2026-07-28 00:10:32.500000+00
+71,Caudete,Albacete,Castilla-La Mancha,02020,https://www.caudete.org/,,,38.7061,-0.9880,2026-07-28 00:10:34.500000+00
+72,Cenizate,Albacete,Castilla-La Mancha,02021,https://www.cenizate.es/,,,39.3005,-1.6366,2026-07-28 00:10:36.500000+00
+73,Corral-Rubio,Albacete,Castilla-La Mancha,02025,https://www.corralrubio.es/,,,38.8322,-1.4611,2026-07-28 00:10:38.500000+00
+74,Cotillas,Albacete,Castilla-La Mancha,02027,https://www.cotillas.es/,,,38.4288,-2.5080,2026-07-28 00:10:40.500000+00
+75,Chinchilla de Monte-Aragón,Albacete,Castilla-La Mancha,02029,https://www.chinchillademontearagon.es/,,,38.9205,-1.7258,2026-07-28 00:10:42.500000+00
+76,Elche de la Sierra,Albacete,Castilla-La Mancha,02030,https://www.elchedelasierra.es/,,,38.4483,-2.0483,2026-07-28 00:10:44.500000+00
+77,Férez,Albacete,Castilla-La Mancha,02031,https://www.ferez.es/,,,38.3586,-2.0080,2026-07-28 00:10:46.500000+00
+78,Fuensanta,Albacete,Castilla-La Mancha,02032,https://www.fuensanta.es/,,,39.2458,-2.0683,2026-07-28 00:10:48.500000+00
+79,Fuente-Álamo,Albacete,Castilla-La Mancha,02033,https://www.fuentealamo.es/,,,38.6947,-1.4319,2026-07-28 00:10:50.500000+00
+80,Fuentealbilla,Albacete,Castilla-La Mancha,02034,https://www.fuentealbilla.es/,,,39.2661,-1.5475,2026-07-28 00:10:52.500000+00
+81,La Gineta,Albacete,Castilla-La Mancha,02035,https://www.lagineta.es/,,,39.1158,-1.9363,2026-07-28 00:10:54.500000+00
+82,Golosalvo,Albacete,Castilla-La Mancha,02036,https://www.golosalvo.es/,,,39.2394,-1.6375,2026-07-28 00:10:56.500000+00
+83,Hellín,Albacete,Castilla-La Mancha,02037,https://www.hellin.es/,,,38.5105,-1.7008,2026-07-28 00:10:58.500000+00
+84,La Herrera,Albacete,Castilla-La Mancha,02038,https://www.laherrera.es/,,,38.9616,-2.1258,2026-07-28 00:11:00.500000+00
+85,Higueruela,Albacete,Castilla-La Mancha,02039,https://www.higueruela.es/,,,38.9658,-1.4427,2026-07-28 00:11:02.500000+00
+86,Hoya-Gonzalo,Albacete,Castilla-La Mancha,02040,https://www.hoyagonzalo.es/,,,38.9566,-1.5488,2026-07-28 00:11:04.500000+00
+87,Jorquera,Albacete,Castilla-La Mancha,02041,https://www.jorquera.es/,,,39.2272,-1.5213,2026-07-28 00:11:06.500000+00
+88,Letur,Albacete,Castilla-La Mancha,02042,https://www.letur.es/,,,38.3638,-2.0991,2026-07-28 00:11:08.500000+00
+89,Lezuza,Albacete,Castilla-La Mancha,02043,https://www.lezuza.es/,,,38.9483,-2.3533,2026-07-28 00:11:10.500000+00
+90,Liétor,Albacete,Castilla-La Mancha,02044,https://www.lietor.es/,,,38.5419,-1.9555,2026-07-28 00:11:12.500000+00
+91,Madrigueras,Albacete,Castilla-La Mancha,02045,https://www.madrigueras.es/,,,39.2377,-1.8027,2026-07-28 00:11:14.500000+00
+92,Mahora,Albacete,Castilla-La Mancha,02046,https://www.mahora.es/,,,39.2133,-1.7258,2026-07-28 00:11:16.500000+00
+93,Masegoso,Albacete,Castilla-La Mancha,02047,https://www.masegoso.es/,,,38.7291,-2.3080,2026-07-28 00:11:18.500000+00
+94,Minaya,Albacete,Castilla-La Mancha,02048,https://www.minaya.es/,,,39.2708,-2.3216,2026-07-28 00:11:20.500000+00
+95,Molinicos,Albacete,Castilla-La Mancha,02049,https://www.molinicos.es/,,,38.4658,-2.2405,2026-07-28 00:11:22.500000+00
+96,Montalvos,Albacete,Castilla-La Mancha,02050,https://www.montalvos.es/,,,39.1627,-2.0294,2026-07-28 00:11:24.500000+00
+97,Montealegre del Castillo,Albacete,Castilla-La Mancha,02051,https://www.montealegredelcastillo.es/,,,38.7891,-1.3263,2026-07-28 00:11:26.500000+00
+98,Motilleja,Albacete,Castilla-La Mancha,02052,https://www.motilleja.es/,,,39.1802,-1.7913,2026-07-28 00:11:28.500000+00
+99,Munera,Albacete,Castilla-La Mancha,02053,https://www.munera.es/,,,39.0397,-2.4811,2026-07-28 00:11:30.500000+00
+100,Navas de Jorquera,Albacete,Castilla-La Mancha,02054,https://www.navasdejorquera.es/,,,39.2805,-1.7225,2026-07-28 00:11:32.500000+00
+101,Nerpio,Albacete,Castilla-La Mancha,02055,https://www.nerpio.es/,,,38.1466,-2.3013,2026-07-28 00:11:34.500000+00
+102,Ontur,Albacete,Castilla-La Mancha,02056,https://www.ontur.es/,,,38.6144,-1.4988,2026-07-28 00:11:36.500000+00
+103,Ossa de Montiel,Albacete,Castilla-La Mancha,02057,https://www.ossademontiel.es/,,,38.9627,-2.7461,2026-07-28 00:11:38.500000+00
+104,Paterna del Madera,Albacete,Castilla-La Mancha,02058,https://www.paternadelmadera.es/,,,38.5955,-2.3366,2026-07-28 00:11:40.500000+00
+105,Peñas de San Pedro,Albacete,Castilla-La Mancha,02060,https://www.penasdesanpedro.es/,,,38.7263,-2.0005,2026-07-28 00:11:42.500000+00
+106,Peñascosa,Albacete,Castilla-La Mancha,02059,https://www.penascosa.es/,,,38.6725,-2.4116,2026-07-28 00:11:44.500000+00
+107,Pétrola,Albacete,Castilla-La Mancha,02061,https://www.petrola.es/,,,38.8358,-1.5544,2026-07-28 00:11:46.500000+00
+108,Povedilla,Albacete,Castilla-La Mancha,02062,https://www.povedilla.es/,,,38.6947,-2.6022,2026-07-28 00:11:48.500000+00
+109,Pozo Cañada,Albacete,Castilla-La Mancha,02901,https://www.pozocanada.es/,,,38.8027,-1.7388,2026-07-28 00:11:50.500000+00
+110,Pozohondo,Albacete,Castilla-La Mancha,02063,https://www.pozohondo.es/,,,38.7183,-1.9102,2026-07-28 00:11:52.500000+00
+111,Pozo-Lorente,Albacete,Castilla-La Mancha,02064,https://www.pozolorente.es/,,,39.0763,-1.4705,2026-07-28 00:11:54.500000+00
+112,Pozuelo,Albacete,Castilla-La Mancha,02065,https://www.pozuelo.es/,,,38.7100,-2.1641,2026-07-28 00:11:56.500000+00
+113,La Recueja,Albacete,Castilla-La Mancha,02066,https://www.larecueja.es/,,,39.1752,-1.4883,2026-07-28 00:11:58.500000+00
+114,Riópar,Albacete,Castilla-La Mancha,02067,https://www.riopar.es/,,,38.4975,-2.4188,2026-07-28 00:12:00.500000+00
+115,Robledo,Albacete,Castilla-La Mancha,02068,https://www.robledo.es/,,,38.7594,-2.4502,2026-07-28 00:12:02.500000+00
+116,La Roda,Albacete,Castilla-La Mancha,02069,https://www.laroda.es/,,,39.2088,-2.1558,2026-07-28 00:12:04.500000+00
+117,Salobre,Albacete,Castilla-La Mancha,02070,https://www.salobre.es/,,,38.5772,-2.5402,2026-07-28 00:12:06.500000+00
+118,San Pedro,Albacete,Castilla-La Mancha,02071,https://www.sanpedro.es/,,,38.8358,-2.1852,2026-07-28 00:12:08.500000+00
+119,Socovos,Albacete,Castilla-La Mancha,02072,https://www.socovos.es/,,,38.3313,-1.9825,2026-07-28 00:12:10.500000+00
+125,Tarazona de la Mancha,Albacete,Castilla-La Mancha,02073,https://www.tarazonadelamancha.es/,,,39.2628034,-1.9111552,2026-07-28 00:12:07.73339+00
+126,Tobarra,Albacete,Castilla-La Mancha,02074,https://www.tobarra.es/,,,38.5942277,-1.6886969,2026-07-28 00:12:09.643631+00
+127,Valdeganga,Albacete,Castilla-La Mancha,02075,https://www.valdeganga.es/,,,39.1357484,-1.6770233,2026-07-28 00:12:11.208292+00
+128,Vianos,Albacete,Castilla-La Mancha,02076,https://www.vianos.es/,,,38.632816,-2.5007956,2026-07-28 00:12:13.053707+00
+129,Villa de Ves,Albacete,Castilla-La Mancha,02077,https://www.villadeves.es/,,,39.2225954,-1.2602649,2026-07-28 00:12:14.700000+00
+130,Villalgordo del Júcar,Albacete,Castilla-La Mancha,02078,https://www.villalgordodeljucar.es/,,,39.2952,-2.0633,2026-07-28 00:12:16.500000+00
+131,Villamalea,Albacete,Castilla-La Mancha,02079,https://www.villamalea.es/,,,39.3622,-1.5975,2026-07-28 00:12:18.500000+00
+132,Villapalacios,Albacete,Castilla-La Mancha,02080,https://www.villapalacios.es/,,,38.5750,-2.6338,2026-07-28 00:12:20.500000+00
+133,Villarrobledo,Albacete,Castilla-La Mancha,02081,https://www.villarrobledo.com/,,,39.2683,-2.6019,2026-07-28 00:12:22.500000+00
+134,Villatoya,Albacete,Castilla-La Mancha,02082,https://www.villatoya.es/,,,39.3333,-1.3325,2026-07-28 00:12:24.500000+00
+135,Villavaliente,Albacete,Castilla-La Mancha,02083,https://www.villavaliente.es/,,,39.1247,-1.4552,2026-07-28 00:12:26.500000+00
+136,Villaverde de Guadalimar,Albacete,Castilla-La Mancha,02084,https://www.villaverdedeguadalimar.es/,,,38.4558,-2.5313,2026-07-28 00:12:28.500000+00
+137,Viveros,Albacete,Castilla-La Mancha,02085,https://www.viveros.es/,,,38.7719,-2.3422,2026-07-28 00:12:30.500000+00
+138,Yeste,Albacete,Castilla-La Mancha,02086,https://www.yeste.es/,,,38.3663,-2.3175,2026-07-28 00:12:32.500000+00
