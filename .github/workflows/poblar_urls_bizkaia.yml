@@ -1,4 +1,4 @@
-name: Bizkaia
+name: Poblar URLs Bizkaia
 
 on:
   workflow_dispatch:
