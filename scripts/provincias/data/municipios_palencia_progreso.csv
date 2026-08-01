@@ -1,0 +1,192 @@
+id,nombre,provincia,ccaa,codigo_ine,url_ayuntamiento,url_fuente_noticias,tipo_fuente,latitud,longitud,created_at
+5060,Abarca de Campos,Palencia,Castilla y León,34001,https://abarcadecampos.es,,,42.0625676,-4.8418423,2026-07-28 09:14:11.151956+00
+5061,Abia de las Torres,Palencia,Castilla y León,34003,https://abiadelastorres.es,,,42.4196917,-4.4226995,2026-07-28 09:14:12.777887+00
+5062,Aguilar de Campoo,Palencia,Castilla y León,34004,https://aguilardecampoo.es,,,42.7956326,-4.30365,2026-07-28 09:14:14.430842+00
+5063,Alar del Rey,Palencia,Castilla y León,34005,https://alardelrey.es,,,42.6595668,-4.3111784,2026-07-28 09:14:16.053285+00
+5064,Alba de Cerrato,Palencia,Castilla y León,34006,https://albadecerrato.es,,,41.8127116,-4.3652566,2026-07-28 09:14:17.712274+00
+5065,Amayuelas de Arriba,Palencia,Castilla y León,34009,https://amayuelasdearriba.es,,,42.211081,-4.4887297,2026-07-28 09:14:19.139963+00
+5066,Ampudia,Palencia,Castilla y León,34010,https://ampudia.es,,,41.9148751,-4.7792135,2026-07-28 09:14:20.745196+00
+5067,Amusco,Palencia,Castilla y León,34011,https://amusco.es,,,42.1728976,-4.4699037,2026-07-28 09:14:22.333413+00
+5068,Antigüedad,Palencia,Castilla y León,34012,https://antiguedad.es,,,41.9465178,-4.1183617,2026-07-28 09:14:23.930951+00
+5069,Arconada,Palencia,Castilla y León,34015,https://arconada.es,,,42.3276271,-4.4952828,2026-07-28 09:14:25.530972+00
+5070,Astudillo,Palencia,Castilla y León,34017,https://astudillo.es,,,42.1927215,-4.2938662,2026-07-28 09:14:27.144712+00
+5071,Autilla del Pino,Palencia,Castilla y León,34018,https://autilladelpino.es,,,41.9911815,-4.6334702,2026-07-28 09:14:28.753552+00
+5072,Autillo de Campos,Palencia,Castilla y León,34019,https://autillodecampos.es,,,42.0873279,-4.8336762,2026-07-28 09:14:30.223977+00
+5073,Ayuela,Palencia,Castilla y León,34020,https://ayuela.es,,,42.6262262,-4.6597711,2026-07-28 09:14:31.821349+00
+5074,Baltanás,Palencia,Castilla y León,34022,https://baltanas.es,,,41.9370606,-4.2471899,2026-07-28 09:14:33.297489+00
+5075,Baquerín de Campos,Palencia,Castilla y León,34024,https://baquerindecampos.es,,,42.0157345,-4.7815641,2026-07-28 09:14:34.721283+00
+5076,Bárcena de Campos,Palencia,Castilla y León,34025,https://barcenadecampos.es,,,42.4834048,-4.4987889,2026-07-28 09:14:36.322746+00
+5077,Barruelo de Santullán,Palencia,Castilla y León,34027,https://barruelodesantullan.es,,,42.9087746,-4.2881024,2026-07-28 09:14:37.962954+00
+5078,Báscones de Ojeda,Palencia,Castilla y León,34028,https://basconesdeojeda.es,,,42.6705949,-4.5274879,2026-07-28 09:14:39.596154+00
+5079,Becerril de Campos,Palencia,Castilla y León,34029,https://becerrildecampos.es,,,42.1079127,-4.6397799,2026-07-28 09:14:41.19373+00
+5080,Belmonte de Campos,Palencia,Castilla y León,34031,https://belmontedecampos.es,,,41.9427963,-4.9873964,2026-07-28 09:14:42.878197+00
+5081,Berzosilla,Palencia,Castilla y León,34032,https://berzosilla.es,,,42.7801605,-4.0376393,2026-07-28 09:14:44.521867+00
+5082,Boada de Campos,Palencia,Castilla y León,34033,https://boadadecampos.es,,,41.9896693,-4.8775277,2026-07-28 09:14:45.95943+00
+5083,Boadilla de Rioseco,Palencia,Castilla y León,34035,https://boadilladerioseco.es,,,42.1793848,-4.9689427,2026-07-28 09:14:47.64521+00
+5084,Boadilla del Camino,Palencia,Castilla y León,34034,https://boadilladelcamino.es,,,42.2577849,-4.3472897,2026-07-28 09:14:49.271065+00
+5085,Brañosera,Palencia,Castilla y León,34036,https://branosera.com,,,42.9360092,-4.3076006,2026-07-28 09:14:50.861241+00
+5086,Buenavista de Valdavia,Palencia,Castilla y León,34037,https://buenavistadevaldavia.es,,,42.6380596,-4.6145515,2026-07-28 09:14:52.453281+00
+5087,Bustillo de la Vega,Palencia,Castilla y León,34038,https://bustillodelavega.es,,,42.4558731,-4.7416348,2026-07-28 09:14:53.903241+00
+5088,Bustillo del Páramo de Carrión,Palencia,Castilla y León,34039,https://bustillodelparamo.es,,,42.3550033,-4.7387975,2026-07-28 09:14:55.338499+00
+5089,Calahorra de Boedo,Palencia,Castilla y León,34041,https://calahorradeboedo.es,,,42.5747181,-4.3852597,2026-07-28 09:14:56.97536+00
+5090,Calzada de los Molinos,Palencia,Castilla y León,34042,https://calzadadelosmolinos.es,,,42.3265894,-4.6518131,2026-07-28 09:14:58.458969+00
+5091,Capillas,Palencia,Castilla y León,34045,https://capillas.es,,,42.0132277,-4.8902508,2026-07-28 09:15:00.080973+00
+5092,Cardeñosa de Volpejera,Palencia,Castilla y León,34046,https://cardenosadevolpejera.es,,,42.2322915,-4.7019806,2026-07-28 09:15:01.680291+00
+5093,Carrión de los Condes,Palencia,Castilla y León,34047,https://www.carriondeloscondes.org,,,42.3385404,-4.6017128,2026-07-28 09:15:03.318998+00
+5094,Castil de Vela,Palencia,Castilla y León,34048,https://castildevela.es,,,41.9837696,-4.9582139,2026-07-28 09:15:04.922066+00
+5095,Castrejón de la Peña,Palencia,Castilla y León,34049,https://castrejondelapena.es,,,42.808111,-4.5992295,2026-07-28 09:15:06.597792+00
+5096,Castrillo de Don Juan,Palencia,Castilla y León,34050,https://castrillodedonjuan.es,,,41.7921651,-4.0702134,2026-07-28 09:15:08.308643+00
+5097,Castrillo de Onielo,Palencia,Castilla y León,34051,https://castrillodeonielo.es,,,41.8581113,-4.3016225,2026-07-28 09:15:09.977826+00
+5098,Castrillo de Villavega,Palencia,Castilla y León,34052,https://castrillodevillavega.es,,,42.4549561,-4.480791,2026-07-28 09:15:11.389078+00
+5099,Castromocho,Palencia,Castilla y León,34053,https://castromocho.es,,,42.0318269,-4.8234305,2026-07-28 09:15:13.041706+00
+5100,Cervatos de la Cueza,Palencia,Castilla y León,34055,https://cervatosdelacueza.es,,,42.2904319,-4.7693449,2026-07-28 09:15:14.65909+00
+5101,Cervera de Pisuerga,Palencia,Castilla y León,34056,https://cerveradepisuerga.es,,,42.8635509,-4.4972234,2026-07-28 09:15:16.339116+00
+5102,Cevico de la Torre,Palencia,Castilla y León,34057,https://cevicodelatorre.es,,,41.8515571,-4.4093299,2026-07-28 09:15:17.917398+00
+5103,Cevico Navero,Palencia,Castilla y León,34058,https://ceviconavero.es,,,41.8618652,-4.184837,2026-07-28 09:15:19.500061+00
+5104,Cisneros,Palencia,Castilla y León,34059,https://cisneros.es,,,42.2210096,-4.8578445,2026-07-28 09:15:21.126768+00
+5105,Cobos de Cerrato,Palencia,Castilla y León,34060,https://cobosdecerrato.es,,,42.0283301,-4.0018015,2026-07-28 09:15:22.793073+00
+5106,Collazos de Boedo,Palencia,Castilla y León,34061,https://collazosdeboedo.es,,,42.6193852,-4.4832119,2026-07-28 09:15:24.452958+00
+5107,Congosto de Valdavia,Palencia,Castilla y León,34062,https://congostodevaldavia.es,,,42.715968,-4.6333358,2026-07-28 09:15:26.056941+00
+5108,Cordovilla la Real,Palencia,Castilla y León,34063,https://cordovillalareal.es,,,42.0793366,-4.2599008,2026-07-28 09:15:27.64205+00
+5109,Cubillas de Cerrato,Palencia,Castilla y León,34066,https://cubillasdecerrato.es,,,41.7984696,-4.4663595,2026-07-28 09:15:29.232272+00
+5110,Dehesa de Montejo,Palencia,Castilla y León,34067,https://dehesademontejo.es,,,42.8207429,-4.5108875,2026-07-28 09:15:30.684848+00
+5111,Dehesa de Romanos,Palencia,Castilla y León,34068,https://dehesaderomanos.es,,,42.638722,-4.436018,2026-07-28 09:15:32.308659+00
+5112,Dueñas,Palencia,Castilla y León,34069,https://duenas.es,,,41.87652,-4.5462804,2026-07-28 09:15:33.935838+00
+5113,Espinosa de Cerrato,Palencia,Castilla y León,34070,https://espinosadecerrato.es,,,41.9678437,-3.951621,2026-07-28 09:15:35.390353+00
+5114,Espinosa de Villagonzalo,Palencia,Castilla y León,34071,https://espinosadevillagonzalo.es,,,42.4797222,-4.3719843,2026-07-28 09:15:36.990091+00
+5115,Frechilla,Palencia,Castilla y León,34072,https://frechilla.es,,,42.1375125,-4.8410751,2026-07-28 09:15:38.61943+00
+5116,Fresno del Río,Palencia,Castilla y León,34073,https://fresnodelrio.es,,,42.6820747,-4.8173368,2026-07-28 09:15:40.385756+00
+5117,Frómista,Palencia,Castilla y León,34074,https://www.fromista.com,,,42.2676867,-4.4055039,2026-07-28 09:15:41.818081+00
+5118,Fuentes de Nava,Palencia,Castilla y León,34076,https://www.fuentesdenava.es,,,42.0825955,-4.7826439,2026-07-28 09:15:43.523856+00
+5119,Fuentes de Valdepero,Palencia,Castilla y León,34077,https://fuentesdevaldepero.es,,,42.0749607,-4.5005124,2026-07-28 09:15:45.14204+00
+5120,Grijota,Palencia,Castilla y León,34079,https://grijota.es,,,42.0524901,-4.5822734,2026-07-28 09:15:46.728868+00
+5121,Guardo,Palencia,Castilla y León,34080,https://guardo.org,,,42.7895455,-4.846288,2026-07-28 09:15:48.311188+00
+5122,Guaza de Campos,Palencia,Castilla y León,34081,https://guazadecampos.es,,,42.133496,-4.9092466,2026-07-28 09:15:49.952968+00
+5123,Hérmedes de Cerrato,Palencia,Castilla y León,34082,https://hermedesdecerrato.es,,,41.8193273,-4.1753038,2026-07-28 09:15:51.38769+00
+5124,Herrera de Pisuerga,Palencia,Castilla y León,34083,https://herreradepisuerga.es,,,42.5938269,-4.3310029,2026-07-28 09:15:52.939602+00
+5125,Herrera de Valdecañas,Palencia,Castilla y León,34084,https://herreradevaldecanas.es,,,42.0488124,-4.2004813,2026-07-28 09:15:54.541903+00
+5126,Hontoria de Cerrato,Palencia,Castilla y León,34086,https://hontoriadecerrato.es,,,41.9107107,-4.4413663,2026-07-28 09:15:56.114321+00
+5127,Hornillos de Cerrato,Palencia,Castilla y León,34087,https://hornillosdecerrato.es,,,41.9880783,-4.2724488,2026-07-28 09:15:57.72846+00
+5128,Husillos,Palencia,Castilla y León,34088,https://husillos.es,,,42.0851384,-4.5346948,2026-07-28 09:15:59.380954+00
+5129,Itero de la Vega,Palencia,Castilla y León,34089,https://iterodelavega.es,,,42.2879815,-4.2579672,2026-07-28 09:16:00.803524+00
+5130,Lagartos,Palencia,Castilla y León,34091,https://lagartos.es,,,42.4059897,-4.90386,2026-07-28 09:16:02.429917+00
+5131,Lantadilla,Palencia,Castilla y León,34092,https://lantadilla.es,,,42.3405995,-4.2774864,2026-07-28 09:16:04.064063+00
+5132,Ledigos,Palencia,Castilla y León,34094,https://ledigos.es,,,42.3546268,-4.86461,2026-07-28 09:16:05.682032+00
+5133,Loma de Ucieza,Palencia,Castilla y León,34903,https://lomadeucieza.es,,,42.4771428,-4.5787165,2026-07-28 09:16:07.29188+00
+5134,Lomas,Palencia,Castilla y León,34096,https://lomasdecampos.es,,,42.27354,-4.5503861,2026-07-28 09:16:09.105155+00
+5135,Magaz de Pisuerga,Palencia,Castilla y León,34098,https://magazdepisuerga.es,,,41.9825261,-4.4279316,2026-07-28 09:16:10.748921+00
+5136,Manquillos,Palencia,Castilla y León,34099,https://manquillos.es,,,42.2042764,-4.5675522,2026-07-28 09:16:12.350021+00
+5137,Mantinos,Palencia,Castilla y León,34100,https://mantinos.es,,,42.7522973,-4.8412781,2026-07-28 09:16:13.764924+00
+5138,Marcilla de Campos,Palencia,Castilla y León,34101,https://marcilladecampos.es,,,42.3178263,-4.3959413,2026-07-28 09:16:15.378965+00
+5139,Mazariegos,Palencia,Castilla y León,34102,https://mazariegos.es,,,42.0271751,-4.714452,2026-07-28 09:16:16.795366+00
+5140,Mazuecos de Valdeginate,Palencia,Castilla y León,34103,https://mazuecosdevaldeginate.es,,,42.1680833,-4.840417,2026-07-28 09:16:18.377442+00
+5141,Melgar de Yuso,Palencia,Castilla y León,34104,https://melgardeyuso.es,,,42.2530925,-4.2533643,2026-07-28 09:16:19.929239+00
+5142,Meneses de Campos,Palencia,Castilla y León,34106,https://menesesdecampos.es,,,41.9413966,-4.9190728,2026-07-28 09:16:21.551044+00
+5143,Micieces de Ojeda,Palencia,Castilla y León,34107,https://miciecesdeojeda.es,,,42.6908491,-4.4622322,2026-07-28 09:16:22.967115+00
+5144,Monzón de Campos,Palencia,Castilla y León,34108,https://monzondecampos.es,,,42.1164512,-4.4942161,2026-07-28 09:16:24.59739+00
+5145,Moratinos,Palencia,Castilla y León,34109,https://moratinos.es,,,42.3605222,-4.9266466,2026-07-28 09:16:26.234914+00
+5146,Mudá,Palencia,Castilla y León,34110,https://muda.es,,,42.8760099,-4.3944214,2026-07-28 09:16:27.782401+00
+5147,Nogal de las Huertas,Palencia,Castilla y León,34112,https://nogaldelashuertas.es,,,42.3922913,-4.6416359,2026-07-28 09:16:29.405471+00
+5148,Olea de Boedo,Palencia,Castilla y León,34113,https://oleadeboedo.es,,,42.6088759,-4.4509722,2026-07-28 09:16:30.872227+00
+5149,Olmos de Ojeda,Palencia,Castilla y León,34114,https://olmosdeojeda.es,,,42.7223042,-4.4247325,2026-07-28 09:16:32.308251+00
+5150,Osornillo,Palencia,Castilla y León,34116,https://osornillo.es,,,42.3701512,-4.2911423,2026-07-28 09:16:33.912039+00
+5151,Osorno la Mayor,Palencia,Castilla y León,34901,https://osorno.es,,,42.4106725,-4.3609815,2026-07-28 09:16:35.358904+00
+5152,Palencia,Palencia,Castilla y León,34120,https://www.aytopalencia.es,,,41.9951569,-4.5442676,2026-07-28 09:16:37.093368+00
+5153,Palenzuela,Palencia,Castilla y León,34121,https://palenzuela.es,,,42.0952764,-4.1300087,2026-07-28 09:16:38.616724+00
+5154,Páramo de Boedo,Palencia,Castilla y León,34122,https://paramodeboedo.es,,,42.5778506,-4.4003243,2026-07-28 09:16:40.247614+00
+5155,Paredes de Nava,Palencia,Castilla y León,34123,https://paredesdenava.es,,,42.1528695,-4.6922384,2026-07-28 09:16:41.996922+00
+5156,Payo de Ojeda,Palencia,Castilla y León,34124,https://payodeojeda.es,,,42.7192977,-4.478643,2026-07-28 09:16:43.649671+00
+5157,Pedraza de Campos,Palencia,Castilla y León,34125,https://pedrazadecampos.es,,,41.9844125,-4.7343652,2026-07-28 09:16:45.082384+00
+5158,Pedrosa de la Vega,Palencia,Castilla y León,34126,https://pedrosadelavega.es,,,42.4814511,-4.7467438,2026-07-28 09:16:46.762155+00
+5159,Perales,Palencia,Castilla y León,34127,https://perales.es,,,42.1935939,-4.5805331,2026-07-28 09:16:48.214611+00
+5160,"Pernía, La",Palencia,Castilla y León,34904,https://lapernia.es,,,42.9715874,-4.5799699,2026-07-28 09:16:49.83931+00
+5161,Pino del Río,Palencia,Castilla y León,34129,https://pinodelrio.es,,,42.644198,-4.807965,2026-07-28 09:16:51.618051+00
+5162,Piña de Campos,Palencia,Castilla y León,34130,https://pinadecampos.es,,,42.2134722,-4.4362894,2026-07-28 09:16:53.222882+00
+5163,Población de Arroyo,Palencia,Castilla y León,34131,https://poblaciondearroyo.es,,,42.3369489,-4.8740936,2026-07-28 09:16:54.898093+00
+5164,Población de Campos,Palencia,Castilla y León,34132,https://poblaciondecampos.es,,,42.2697479,-4.4471347,2026-07-28 09:16:56.623317+00
+5165,Población de Cerrato,Palencia,Castilla y León,34133,https://poblaciondecerrato.es,,,41.7926299,-4.427955,2026-07-28 09:16:58.316939+00
+5166,Polentinos,Palencia,Castilla y León,34134,https://polentinos.es,,,42.9387931,-4.5264759,2026-07-28 09:16:59.881923+00
+5167,Pomar de Valdivia,Palencia,Castilla y León,34135,https://pomardevaldivia.es,,,42.7745019,-4.1674162,2026-07-28 09:17:01.401803+00
+5168,Poza de la Vega,Palencia,Castilla y León,34136,https://pozadelavega.es,,,42.5778096,-4.7973318,2026-07-28 09:17:02.906419+00
+5169,Pozo de Urama,Palencia,Castilla y León,34137,https://pozodeurama.es,,,42.2532748,-4.8939337,2026-07-28 09:17:04.492085+00
+5170,Prádanos de Ojeda,Palencia,Castilla y León,34139,https://pradanosdeojeda.es,,,42.6804098,-4.3470193,2026-07-28 09:17:05.952816+00
+5171,"Puebla de Valdavia, La",Palencia,Castilla y León,34140,https://puebladevaldavia.es,,,42.6718382,-4.6215997,2026-07-28 09:17:07.620886+00
+5172,Quintana del Puente,Palencia,Castilla y León,34141,https://quintanadelpuente.es,,,42.0841001,-4.2074696,2026-07-28 09:17:09.535362+00
+5173,Quintanilla de Onsoña,Palencia,Castilla y León,34143,https://quintanilladeonsona.es,,,42.4694116,-4.6642034,2026-07-28 09:17:10.967209+00
+5174,Reinoso de Cerrato,Palencia,Castilla y León,34146,https://reinosodecerrato.es,,,41.9765269,-4.3829532,2026-07-28 09:17:12.576911+00
+5175,Renedo de la Vega,Palencia,Castilla y León,34147,https://renedodelavega.es,,,42.4533309,-4.703369,2026-07-28 09:17:14.216627+00
+5176,Requena de Campos,Palencia,Castilla y León,34149,https://requenadecampos.es,,,42.30785,-4.3428348,2026-07-28 09:17:15.664575+00
+5177,Respenda de la Peña,Palencia,Castilla y León,34151,https://respendadelapena.es,,,42.7652208,-4.6860529,2026-07-28 09:17:17.276227+00
+5178,Revenga de Campos,Palencia,Castilla y León,34152,https://revengadecampos.es,,,42.2841796,-4.4820395,2026-07-28 09:17:18.907746+00
+5179,Revilla de Collazos,Palencia,Castilla y León,34154,https://revilladecollazos.es,,,42.6290611,-4.5037161,2026-07-28 09:17:20.542374+00
+5180,Ribas de Campos,Palencia,Castilla y León,34155,https://ribasdecampos.es,,,42.1526374,-4.5164117,2026-07-28 09:17:22.240077+00
+5181,Riberos de la Cueza,Palencia,Castilla y León,34156,https://riberosdelacueza.es,,,42.2784342,-4.7247277,2026-07-28 09:17:23.680811+00
+5182,Saldaña,Palencia,Castilla y León,34157,https://saldana.es,,,42.5227119,-4.7364391,2026-07-28 09:17:25.325362+00
+5183,Salinas de Pisuerga,Palencia,Castilla y León,34158,https://salinasdepisuerga.es,,,42.8504615,-4.3769757,2026-07-28 09:17:27.000506+00
+5184,San Cebrián de Campos,Palencia,Castilla y León,34159,https://sancebriandecampos.es,,,42.2010196,-4.5304159,2026-07-28 09:17:28.436063+00
+5185,San Cebrián de Mudá,Palencia,Castilla y León,34160,https://sancebriandemuda.es,,,42.8927342,-4.3864962,2026-07-28 09:17:29.890732+00
+5186,San Cristóbal de Boedo,Palencia,Castilla y León,34161,https://sancristobaldeboedo.es,,,42.5418534,-4.3530239,2026-07-28 09:17:31.310599+00
+5187,San Mamés de Campos,Palencia,Castilla y León,34163,https://sanmamesdecampos.es,,,42.35478,-4.5658356,2026-07-28 09:17:32.863827+00
+5188,San Román de la Cuba,Palencia,Castilla y León,34165,https://sanromandelacuba.es,,,42.2621227,-4.8569195,2026-07-28 09:17:34.581491+00
+5189,Santa Cecilia del Alcor,Palencia,Castilla y León,34167,https://santaceciliadelalcor.es,,,41.9341653,-4.6586291,2026-07-28 09:17:36.139743+00
+5190,Santa Cruz de Boedo,Palencia,Castilla y León,34168,https://santacruzdeboedo.es,,,42.5255042,-4.3736548,2026-07-28 09:17:37.728119+00
+5191,Santervás de la Vega,Palencia,Castilla y León,34169,https://santervasdelavega.es,,,42.5068203,-4.7985326,2026-07-28 09:17:39.218773+00
+5192,Santibáñez de Ecla,Palencia,Castilla y León,34170,https://santibanezdeecla.es,,,42.707615,-4.374304,2026-07-28 09:17:40.753714+00
+5193,Santibáñez de la Peña,Palencia,Castilla y León,34171,https://santibanezdelapena.es,,,42.8089295,-4.7299233,2026-07-28 09:17:42.242356+00
+5194,Santoyo,Palencia,Castilla y León,34174,https://santoyo.es,,,42.2149995,-4.3431765,2026-07-28 09:17:43.89427+00
+5195,"Serna, La",Palencia,Castilla y León,34175,https://laserna.es,,,42.3660891,-4.3747815,2026-07-28 09:17:45.576248+00
+5196,Soto de Cerrato,Palencia,Castilla y León,34177,https://sotodecerrato.es,,,41.9530164,-4.4301671,2026-07-28 09:17:47.005609+00
+5197,Sotobañado y Priorato,Palencia,Castilla y León,34176,https://sotobanadoypriorato.es,,,42.5899293,-4.4422136,2026-07-28 09:17:48.609937+00
+5198,Tabanera de Cerrato,Palencia,Castilla y León,34178,https://tabaneradecerrato.es,,,42.0247826,-4.1234622,2026-07-28 09:17:50.231876+00
+5199,Tabanera de Valdavia,Palencia,Castilla y León,34179,https://tabaneradevaldavia.es,,,42.6473734,-4.6934476,2026-07-28 09:17:51.880825+00
+5200,Támara de Campos,Palencia,Castilla y León,34180,https://tamaradecampos.es,,,42.2035789,-4.3935873,2026-07-28 09:17:53.325899+00
+5201,Tariego de Cerrato,Palencia,Castilla y León,34181,https://tariegodecerrato.es,,,41.9049336,-4.4811717,2026-07-28 09:17:54.930999+00
+5202,Torquemada,Palencia,Castilla y León,34182,https://torquemada.es,,,42.0340573,-4.3189266,2026-07-28 09:17:56.539828+00
+5203,Torremormojón,Palencia,Castilla y León,34184,https://torremormojon.es,,,41.9605467,-4.7776238,2026-07-28 09:17:58.085683+00
+5204,Triollo,Palencia,Castilla y León,34185,https://triollo.es,,,42.9243179,-4.6810643,2026-07-28 09:17:59.701618+00
+5205,Valbuena de Pisuerga,Palencia,Castilla y León,34186,https://valbuenadepisuerga.es,,,42.1457693,-4.2387558,2026-07-28 09:18:01.325747+00
+5206,Valdeolmillos,Palencia,Castilla y León,34189,https://valdeolmillos.es,,,42.0410076,-4.3999815,2026-07-28 09:18:02.923712+00
+5207,Valderrábano,Palencia,Castilla y León,34190,https://valderrabano.es,,,42.606366,-4.6557314,2026-07-28 09:18:04.539833+00
+5208,Valde-Ucieza,Palencia,Castilla y León,34192,https://valdeucieza.es,,,42.3971916,-4.5771601,2026-07-28 09:18:06.073611+00
+5209,Valle de Cerrato,Palencia,Castilla y León,34196,https://valledecerrato.es,,,41.8798301,-4.3621839,2026-07-28 09:18:07.640303+00
+5210,Valle del Retortillo,Palencia,Castilla y León,34902,https://valledelretortillo.es,,,42.2161871,-4.7757869,2026-07-28 09:18:09.227959+00
+5211,Velilla del Río Carrión,Palencia,Castilla y León,34199,https://velilladelriocarrion.es,,,42.8260298,-4.8473699,2026-07-28 09:18:10.854493+00
+5212,Venta de Baños,Palencia,Castilla y León,34023,https://ventadebanos.es,,,41.9206919,-4.4931598,2026-07-28 09:18:12.540782+00
+5213,Vertavillo,Palencia,Castilla y León,34201,https://vertavillo.es,,,41.8327417,-4.3269532,2026-07-28 09:18:13.938194+00
+5214,"Vid de Ojeda, La",Palencia,Castilla y León,34093,https://laviddeojeda.es,,,42.6597761,-4.3849181,2026-07-28 09:18:15.513154+00
+5215,Villabasta de Valdavia,Palencia,Castilla y León,34202,https://villabasta.es,,,42.5606139,-4.6025948,2026-07-28 09:18:17.706371+00
+5216,Villacidaler,Palencia,Castilla y León,34204,https://villacidaler.es,,,42.2214182,-4.9759098,2026-07-28 09:18:19.351064+00
+5217,Villaconancio,Palencia,Castilla y León,34205,https://villaconancio.es,,,41.8714837,-4.223565,2026-07-28 09:18:20.967568+00
+5218,Villada,Palencia,Castilla y León,34206,https://villada.es,,,42.2503959,-4.9671551,2026-07-28 09:18:22.570668+00
+5219,Villaeles de Valdavia,Palencia,Castilla y León,34208,https://villaelesdevaldavia.es,,,42.5659809,-4.5838316,2026-07-28 09:18:24.179203+00
+5220,Villahán,Palencia,Castilla y León,34210,https://villahan.es,,,42.050492,-4.131614,2026-07-28 09:18:25.836537+00
+5221,Villaherreros,Palencia,Castilla y León,34211,https://villaherreros.es,,,42.3886413,-4.4626671,2026-07-28 09:18:27.43545+00
+5222,Villalaco,Palencia,Castilla y León,34213,https://villalaco.es,,,42.1547483,-4.259306,2026-07-28 09:18:29.073999+00
+5223,Villalba de Guardo,Palencia,Castilla y León,34214,https://villalbadeguardo.es,,,42.7217174,-4.8234443,2026-07-28 09:18:30.657683+00
+5224,Villalcázar de Sirga,Palencia,Castilla y León,34215,https://villalcazardesirga.es,,,42.3167118,-4.541803,2026-07-28 09:18:32.10198+00
+5225,Villalcón,Palencia,Castilla y León,34216,https://villalcon.es,,,42.2927331,-4.8546716,2026-07-28 09:18:33.676855+00
+5226,Villalobón,Palencia,Castilla y León,34217,https://villalobon.es,,,42.0306729,-4.5036687,2026-07-28 09:18:35.107608+00
+5227,Villaluenga de la Vega,Palencia,Castilla y León,34218,https://villaluengadelavega.es,,,42.5231823,-4.7650478,2026-07-28 09:18:36.708121+00
+5228,Villamartín de Campos,Palencia,Castilla y León,34220,https://villamartindecampos.es,,,42.0163797,-4.6630388,2026-07-28 09:18:38.362953+00
+5229,Villamediana,Palencia,Castilla y León,34221,https://villamediana.es,,,42.0501652,-4.3612173,2026-07-28 09:18:39.964654+00
+5230,Villameriel,Palencia,Castilla y León,34222,https://villameriel.es,,,42.5284016,-4.4756512,2026-07-28 09:18:41.400702+00
+5231,Villamoronta,Palencia,Castilla y León,34223,https://villamoronta.es,,,42.402789,-4.6989708,2026-07-28 09:18:43.014449+00
+5232,Villamuera de la Cueza,Palencia,Castilla y León,34224,https://villamueradelacueza.es,,,42.2588686,-4.6881539,2026-07-28 09:18:44.592091+00
+5233,Villamuriel de Cerrato,Palencia,Castilla y León,34225,https://villamuriel.es,,,41.9515154,-4.5151999,2026-07-28 09:18:46.0244+00
+5234,Villanueva del Rebollar,Palencia,Castilla y León,34227,https://villanuevadelrebollar.es,,,42.2412431,-4.7420949,2026-07-28 09:18:47.607083+00
+5235,Villanuño de Valdavia,Palencia,Castilla y León,34228,https://villanunodevaldavia.es,,,42.5074461,-4.5190881,2026-07-28 09:18:49.053237+00
+5236,Villaprovedo,Palencia,Castilla y León,34229,https://villaprovedo.es,,,42.5169576,-4.3963974,2026-07-28 09:18:50.655741+00
+5237,Villarmentero de Campos,Palencia,Castilla y León,34230,https://villarmenterodecampos.es,,,42.2971612,-4.499231,2026-07-28 09:18:52.23845+00
+5238,Villarrabé,Palencia,Castilla y León,34231,https://villarrabe.es,,,42.4206517,-4.7840853,2026-07-28 09:18:53.846824+00
+5239,Villarramiel,Palencia,Castilla y León,34232,https://villarramiel.es,,,42.0431165,-4.9131746,2026-07-28 09:18:55.304516+00
+5240,Villasarracino,Palencia,Castilla y León,34233,https://villasarracino.es,,,42.4126984,-4.4960199,2026-07-28 09:18:56.885285+00
+5241,Villasila de Valdavia,Palencia,Castilla y León,34234,https://villasiladevaldavia.es,,,42.5320097,-4.5588013,2026-07-28 09:18:58.534099+00
+5242,Villaturde,Palencia,Castilla y León,34236,https://villaturde.es,,,42.3779394,-4.670475,2026-07-28 09:19:00.138838+00
+5243,Villaumbrales,Palencia,Castilla y León,34237,https://villaumbrales.es,,,42.0889343,-4.6130007,2026-07-28 09:19:01.758819+00
+5244,Villaviudas,Palencia,Castilla y León,34238,https://villaviudas.es,,,41.9616715,-4.3415693,2026-07-28 09:19:03.410749+00
+5245,Villerías de Campos,Palencia,Castilla y León,34240,https://villeriasdecampos.es,,,41.9447004,-4.8560902,2026-07-28 09:19:05.089674+00
+5246,Villodre,Palencia,Castilla y León,34241,https://villodre.es,,,42.211561,-4.2458531,2026-07-28 09:19:06.526662+00
+5247,Villodrigo,Palencia,Castilla y León,34242,https://villodrigo.es,,,42.144524,-4.0947851,2026-07-28 09:19:07.97743+00
+5248,Villoldo,Palencia,Castilla y León,34243,https://villoldo.es,,,42.2450964,-4.5965081,2026-07-28 09:19:09.637615+00
+5249,Villota del Páramo,Palencia,Castilla y León,34245,https://villotadelparamo.es,,,42.5522706,-4.8480686,2026-07-28 09:19:11.268691+00
+5250,Villovieco,Palencia,Castilla y León,34246,https://villovieco.es,,,42.2954371,-4.4819042,2026-07-28 09:19:12.846979+00

@@ -1,0 +1,249 @@
+id,nombre,provincia,ccaa,codigo_ine,url_ayuntamiento,url_fuente_noticias,tipo_fuente,latitud,longitud,created_at
+383,Adanero,Ávila,Castilla y León,05001,https://www.adanero.es,,,40.9438737,-4.6038249,2026-07-28 00:20:05.875169+00
+384,"Adrada, La",Ávila,Castilla y León,05002,https://www.laadrada.es,,,40.6400494,-4.7035852,2026-07-28 00:20:07.538556+00
+385,Albornos,Ávila,Castilla y León,05005,https://www.albornos.es,,,40.8382012,-4.8819226,2026-07-28 00:20:09.43978+00
+386,Aldeanueva de Santa Cruz,Ávila,Castilla y León,05007,https://www.aldeanuevadesantacruz.com,,,40.3813669,-5.4215683,2026-07-28 00:20:11.268365+00
+387,Aldeaseca,Ávila,Castilla y León,05008,https://www.aldeaseca.es,,,41.0488943,-4.8175252,2026-07-28 00:20:12.842097+00
+388,"Aldehuela, La",Ávila,Castilla y León,05010,https://www.laaldehuela.es,,,40.6783995,-4.5985306,2026-07-28 00:20:14.658582+00
+389,Amavida,Ávila,Castilla y León,05012,https://www.amavida.es,,,40.5738657,-5.0655314,2026-07-28 00:20:16.357596+00
+390,"Arenal, El",Ávila,Castilla y León,05013,https://www.elarenal.es,,,40.2746735,-5.0812609,2026-07-28 00:20:18.110942+00
+391,Arenas de San Pedro,Ávila,Castilla y León,05014,https://www.arenasdesanpedro.es,,,40.2107266,-5.0868775,2026-07-28 00:20:20.216064+00
+392,Arevalillo,Ávila,Castilla y León,05015,https://www.arevalillo.es,,,40.5872112,-5.371953,2026-07-28 00:20:21.902123+00
+393,Arévalo,Ávila,Castilla y León,05016,https://www.ayuntamientoarevalo.es,,,41.0632758,-4.7198921,2026-07-28 00:20:23.863942+00
+394,Aveinte,Ávila,Castilla y León,05017,http://www.aveinte.es.vg,,,40.7821784,-4.8367695,2026-07-28 00:20:25.713489+00
+395,Avellaneda,Ávila,Castilla y León,05018,https://www.avellaneda.es,,,40.3888653,-5.3888288,2026-07-28 00:20:27.808182+00
+396,Ávila,Ávila,Castilla y León,05019,https://www.avila.es,,,40.657195,-4.6626677,2026-07-28 00:20:30.011152+00
+397,"Barco de Ávila, El",Ávila,Castilla y León,05021,https://www.elbarcodeavila.es,,,40.3589573,-5.5251351,2026-07-28 00:20:31.899555+00
+398,"Barraco, El",Ávila,Castilla y León,05022,https://www.elbarraco.es,,,40.4741432,-4.6379339,2026-07-28 00:20:33.724478+00
+399,Barromán,Ávila,Castilla y León,05023,https://www.barroman.es,,,41.0655459,-4.9314522,2026-07-28 00:20:35.308159+00
+400,Becedas,Ávila,Castilla y León,05024,https://www.becedas.es,,,40.4049606,-5.6343467,2026-07-28 00:20:37.171124+00
+401,Becedillas,Ávila,Castilla y León,05025,https://www.becedillas.es,,,40.537921,-5.3252416,2026-07-28 00:20:39.019968+00
+402,Bercial de Zapardiel,Ávila,Castilla y León,05026,https://www.bercialdezapardiel.es,,,41.04678,-4.9688375,2026-07-28 00:20:40.63265+00
+403,"Berlanas, Las",Ávila,Castilla y León,05027,https://www.lasberlanas.es,,,40.7995319,-4.7628068,2026-07-28 00:20:42.486571+00
+404,Bernuy-Zapardiel,Ávila,Castilla y León,05029,https://www.bernuyzapardiel.es,,,40.9754808,-4.9439608,2026-07-28 00:20:44.03765+00
+405,Berrocalejo de Aragona,Ávila,Castilla y León,05030,https://www.berrocalejodearagona.es,,,40.6946348,-4.5934464,2026-07-28 00:20:45.686523+00
+406,Blascomillán,Ávila,Castilla y León,05033,https://www.blascomillan.es,,,40.8012049,-5.0870279,2026-07-28 00:20:47.561146+00
+407,Blasconuño de Matacabras,Ávila,Castilla y León,05034,https://www.blasconunodematacabras.es,,,41.1232359,-4.9899228,2026-07-28 00:20:49.238641+00
+408,Blascosancho,Ávila,Castilla y León,05035,https://www.blascosancho.es,,,40.8780478,-4.6374932,2026-07-28 00:20:50.837614+00
+409,"Bohodón, El",Ávila,Castilla y León,05036,https://www.elbohodon.es,,,40.9143188,-4.7323925,2026-07-28 00:20:52.747535+00
+410,Bohoyo,Ávila,Castilla y León,05037,https://www.bohoyo.es,,,40.3162123,-5.4419845,2026-07-28 00:20:54.630974+00
+411,Bonilla de la Sierra,Ávila,Castilla y León,05038,https://www.ayto-bonilla.com,,,40.5305841,-5.2650542,2026-07-28 00:20:56.258183+00
+412,Brabos,Ávila,Castilla y León,05039,https://www.brabos.es,,,40.7787832,-4.9397978,2026-07-28 00:20:58.179965+00
+413,Bularros,Ávila,Castilla y León,05040,https://www.bularros.es,,,40.724612,-4.8662675,2026-07-28 00:21:00.009874+00
+414,Burgohondo,Ávila,Castilla y León,05041,https://burgohondo.es,,,40.414358,-4.785769,2026-07-28 00:21:01.917602+00
+415,Cabezas de Alambre,Ávila,Castilla y León,05042,https://www.cabezasdealambre.es,,,40.9423448,-4.8415402,2026-07-28 00:21:06.342059+00
+416,Cabezas del Pozo,Ávila,Castilla y León,05043,https://www.cabezasdelpozo.es,,,41.0010385,-4.9551438,2026-07-28 00:21:09.085673+00
+417,Cabezas del Villar,Ávila,Castilla y León,05044,https://www.cabezasdelvillar.es,,,40.7144689,-5.2092617,2026-07-28 00:21:11.034289+00
+418,Cabizuela,Ávila,Castilla y León,05045,https://www.cabizuela.es,,,40.9009527,-4.8010344,2026-07-28 00:21:12.537249+00
+419,Canales,Ávila,Castilla y León,05046,https://www.canales.es,,,41.0034097,-4.9013913,2026-07-28 00:21:14.454606+00
+420,Candeleda,Ávila,Castilla y León,05047,https://ayuntamientocandeleda.es,,,40.1557248,-5.2409617,2026-07-28 00:21:16.278395+00
+421,Cantiveros,Ávila,Castilla y León,05048,https://www.cantiveros.es,,,40.9525033,-4.9548456,2026-07-28 00:21:17.953161+00
+422,Cardeñosa,Ávila,Castilla y León,05049,https://www.cardenosa.es,,,40.7440033,-4.7449591,2026-07-28 00:21:20.086689+00
+423,"Carrera, La",Ávila,Castilla y León,05051,https://www.lacarrera.es,,,40.3228791,-5.3434319,2026-07-28 00:21:21.935764+00
+424,Casas del Puerto,Ávila,Castilla y León,05052,https://www.casasdelpuerto.es,,,40.5285587,-5.1976684,2026-07-28 00:21:23.813095+00
+425,Casasola,Ávila,Castilla y León,05053,https://www.casasola.es,,,40.6682408,-4.8273562,2026-07-28 00:21:25.454735+00
+426,Casavieja,Ávila,Castilla y León,05054,https://ayuntamientodecasavieja.es,,,40.2814171,-4.7675329,2026-07-28 00:21:27.28497+00
+427,Casillas,Ávila,Castilla y León,05055,https://www.casillas.es,,,40.3256422,-4.5711323,2026-07-28 00:21:28.91664+00
+428,Castellanos de Zapardiel,Ávila,Castilla y León,05056,https://www.castellanosdezapardiel.es,,,41.0842432,-4.9095443,2026-07-28 00:21:30.799283+00
+429,Cebreros,Ávila,Castilla y León,05057,https://www.cebreros.es,,,40.4551504,-4.4651595,2026-07-28 00:21:32.700694+00
+430,Cepeda la Mora,Ávila,Castilla y León,05058,https://www.cepedalamora.es,,,40.4576267,-5.0488492,2026-07-28 00:21:34.580693+00
+431,Chamartín,Ávila,Castilla y León,05067,https://www.chamartin.es,,,40.7018688,-4.9570085,2026-07-28 00:21:37.231121+00
+432,Cillán,Ávila,Castilla y León,05059,https://www.cillan.es,,,40.7048645,-4.9778296,2026-07-28 00:21:39.257284+00
+433,Cisla,Ávila,Castilla y León,05060,https://www.cisla.es,,,40.9657349,-5.0139719,2026-07-28 00:21:40.833299+00
+434,"Colilla, La",Ávila,Castilla y León,05061,https://www.lacolilla.es,,,40.6366029,-4.7551269,2026-07-28 00:21:42.377555+00
+435,Collado de Contreras,Ávila,Castilla y León,05062,https://www.colladodecontreras.es,,,40.8873215,-4.931254,2026-07-28 00:21:44.327682+00
+436,Collado del Mirón,Ávila,Castilla y León,05063,https://www.colladodelmiron.es,,,40.5527439,-5.3535524,2026-07-28 00:21:46.237746+00
+437,Constanzana,Ávila,Castilla y León,05064,https://www.constanzana.es,,,40.9383816,-4.8736983,2026-07-28 00:21:47.900194+00
+438,Crespos,Ávila,Castilla y León,05065,https://www.crespos.es,,,40.8720548,-4.9702253,2026-07-28 00:21:49.546247+00
+439,Cuevas del Valle,Ávila,Castilla y León,05066,https://www.cuevasdelvalle.es,,,40.2940067,-5.0097762,2026-07-28 00:21:51.185288+00
+440,Diego del Carpio,Ávila,Castilla y León,05903,https://www.diegodelcarpio.es,,,40.6706,-5.3446168,2026-07-28 00:21:53.101958+00
+441,Donjimeno,Ávila,Castilla y León,05069,https://www.donjimeno.es,,,40.9602836,-4.8466502,2026-07-28 00:21:54.688433+00
+442,Donvidas,Ávila,Castilla y León,05070,https://www.donvidas.es,,,41.0889123,-4.8058522,2026-07-28 00:21:56.333156+00
+443,Espinosa de los Caballeros,Ávila,Castilla y León,05072,https://www.espinosadeloscaballeros.es,,,41.0086883,-4.6539796,2026-07-28 00:21:57.997005+00
+444,Flores de Ávila,Ávila,Castilla y León,05073,https://www.floresdeavila.es,,,40.9340634,-5.0799111,2026-07-28 00:21:59.843961+00
+445,Fontiveros,Ávila,Castilla y León,05074,https://www.fontiveros.es,,,40.9298797,-4.9659172,2026-07-28 00:22:01.635355+00
+446,Fresnedilla,Ávila,Castilla y León,05075,https://www.fresnedilla.com,,,40.2316621,-4.6213944,2026-07-28 00:22:03.232583+00
+447,"Fresno, El",Ávila,Castilla y León,05076,https://www.elfresno.es,,,40.3826551,-4.5748225,2026-07-28 00:22:05.261861+00
+448,Fuente el Saúz,Ávila,Castilla y León,05077,https://www.fuenteelsauz.es,,,40.977546,-4.9089965,2026-07-28 00:22:06.894069+00
+449,Fuentes de Año,Ávila,Castilla y León,05078,https://www.fuentesdeano.es,,,41.0175547,-4.8976282,2026-07-28 00:22:09.734823+00
+450,Gallegos de Altamiros,Ávila,Castilla y León,05079,https://www.gallegosdealtamiros.es,,,40.70115,-4.9158417,2026-07-28 00:22:11.581751+00
+451,Gallegos de Sobrinos,Ávila,Castilla y León,05080,https://www.gallegosdesobrinos.es,,,40.7169734,-5.112086,2026-07-28 00:22:15.923089+00
+452,Garganta del Villar,Ávila,Castilla y León,05081,https://www.gargantadelvillar.es,,,40.4495574,-5.1042447,2026-07-28 00:22:17.716538+00
+453,Gavilanes,Ávila,Castilla y León,05082,https://www.gavilanes.es,,,40.2785768,-4.851441,2026-07-28 00:22:19.282913+00
+454,Gemuño,Ávila,Castilla y León,05083,https://www.gemuno.es,,,40.5916186,-4.7817538,2026-07-28 00:22:21.003496+00
+455,Gil García,Ávila,Castilla y León,05085,https://www.gilgarcia.es,,,40.2978041,-5.5942268,2026-07-28 00:22:22.746661+00
+456,Gilbuena,Ávila,Castilla y León,05084,https://www.gilbuena.es,,,40.4150429,-5.606348,2026-07-28 00:22:24.561357+00
+457,Gimialcón,Ávila,Castilla y León,05086,https://www.gimialcon.es,,,40.8771239,-5.1228384,2026-07-28 00:22:26.520842+00
+458,Gotarrendura,Ávila,Castilla y León,05087,https://www.gotarrendura.es,,,40.8264524,-4.7409463,2026-07-28 00:22:28.089249+00
+459,Grandes y San Martín,Ávila,Castilla y León,05088,https://www.grandesysanmartin.es,,,40.7624112,-4.9692669,2026-07-28 00:22:29.874704+00
+460,Guisando,Ávila,Castilla y León,05089,https://www.guisando.es,,,40.2223453,-5.1402931,2026-07-28 00:22:31.798534+00
+461,Gutierre-Muñoz,Ávila,Castilla y León,05090,https://www.gutierremunoz.es,,,40.9832104,-4.6384392,2026-07-28 00:22:33.397239+00
+462,Hernansancho,Ávila,Castilla y León,05092,https://www.hernansancho.es,,,40.8588326,-4.7289356,2026-07-28 00:22:34.949658+00
+463,Herradón de Pinares,Ávila,Castilla y León,05093,https://www.herradondepinares.es,,,40.5651308,-4.5591353,2026-07-28 00:22:36.681587+00
+464,Herreros de Suso,Ávila,Castilla y León,05094,https://www.herrerosdesuso.es,,,40.8028245,-5.0381386,2026-07-28 00:22:38.467834+00
+465,Higuera de las Dueñas,Ávila,Castilla y León,05095,https://www.higueradelasduenas.es,,,40.2395323,-4.6032406,2026-07-28 00:22:40.232619+00
+466,"Hija de Dios, La",Ávila,Castilla y León,05096,https://www.lahijadedios.es,,,40.5328807,-4.9699509,2026-07-28 00:22:41.860092+00
+467,"Horcajada, La",Ávila,Castilla y León,05097,https://www.lahorcajada.es,,,40.4374302,-5.465489,2026-07-28 00:22:43.587282+00
+468,Horcajo de las Torres,Ávila,Castilla y León,05099,https://www.horcajodelastorres.es,,,41.0648585,-5.0904405,2026-07-28 00:22:45.271355+00
+469,"Hornillo, El",Ávila,Castilla y León,05100,https://www.elhornillo.es,,,40.6447756,-4.201557,2026-07-28 00:22:46.970892+00
+470,"Hoyo de Pinares, El",Ávila,Castilla y León,05102,https://www.elhoyodepinares.es,,,40.5023439,-4.4224516,2026-07-28 00:22:48.953469+00
+471,Hoyocasero,Ávila,Castilla y León,05101,https://www.hoyocasero.es,,,40.399228,-4.9744064,2026-07-28 00:22:50.870108+00
+472,Hoyorredondo,Ávila,Castilla y León,05103,https://www.hoyorredondo.es,,,40.462617,-5.4110418,2026-07-28 00:22:52.79355+00
+473,Hoyos de Miguel Muñoz,Ávila,Castilla y León,05106,https://www.hoyosdemiguelmunoz.es,,,40.3927895,-5.0670333,2026-07-28 00:22:54.733717+00
+474,Hoyos del Collado,Ávila,Castilla y León,05104,https://www.hoyosdelcollado.es,,,40.3593184,-5.2003576,2026-07-28 00:22:56.339766+00
+475,Hoyos del Espino,Ávila,Castilla y León,05105,https://www.hoyosdelespino.net,,,40.3566677,-5.1752836,2026-07-28 00:22:58.00284+00
+476,Hurtumpascual,Ávila,Castilla y León,05107,https://www.hurtumpascual.es,,,40.691812,-5.1129965,2026-07-28 00:22:59.662888+00
+477,Junciana,Ávila,Castilla y León,05108,https://www.junciana.es,,,40.4112728,-5.5568204,2026-07-28 00:23:01.277048+00
+478,Langa,Ávila,Castilla y León,05109,https://www.langa.es,,,41.0076625,-4.8587225,2026-07-28 00:23:03.383014+00
+479,Lanzahíta,Ávila,Castilla y León,05110,https://ayuntamientolanzahita.com,,,40.205933,-4.9345405,2026-07-28 00:23:05.539828+00
+480,"Llanos de Tormes, Los",Ávila,Castilla y León,05113,https://www.losllanosdetormes.es,,,40.3273429,-5.5007369,2026-07-28 00:23:07.454306+00
+481,"Losar del Barco, El",Ávila,Castilla y León,05112,https://www.ellosardelbarco.es,,,40.3917724,-5.5374812,2026-07-28 00:23:09.333862+00
+482,Madrigal de las Altas Torres,Ávila,Castilla y León,05114,https://www.madrigaldelasaltastorres.es,,,41.0895339,-4.9994857,2026-07-28 00:23:11.319402+00
+483,Maello,Ávila,Castilla y León,05115,https://www.maello.es,,,40.8088827,-4.5098,2026-07-28 00:23:13.226548+00
+484,Malpartida de Corneja,Ávila,Castilla y León,05116,https://www.malpartidadecorneja.es,,,40.5219022,-5.3491147,2026-07-28 00:23:15.254146+00
+485,Mamblas,Ávila,Castilla y León,05117,https://www.mamblas.es,,,41.020283,-5.0110468,2026-07-28 00:23:17.227843+00
+486,Mancera de Arriba,Ávila,Castilla y León,05118,https://www.manceradearriba.es,,,40.7915374,-5.1471584,2026-07-28 00:23:20.259074+00
+487,Manjabálago y Ortigosa de Rioalmar,Ávila,Castilla y León,05119,https://www.manjabalagoyortigosaderioalmar.es,,,,,2026-07-28 00:23:21.968751+00
+488,Marlín,Ávila,Castilla y León,05120,https://www.marlin.es,,,40.7113678,-4.8295264,2026-07-28 00:23:23.991465+00
+489,Martiherrero,Ávila,Castilla y León,05121,https://www.martiherrero.es,,,40.6752873,-4.779996,2026-07-28 00:23:25.936724+00
+490,Martínez,Ávila,Castilla y León,05122,https://www.martinez.es,,,40.6299978,-5.3477831,2026-07-28 00:23:28.089892+00
+491,Mediana de Voltoya,Ávila,Castilla y León,05123,https://www.medianadevoltoya.es,,,40.6999367,-4.5628709,2026-07-28 00:23:30.163156+00
+492,Medinilla,Ávila,Castilla y León,05124,https://www.medinilla.es,,,40.4399962,-5.61824,2026-07-28 00:23:32.014153+00
+493,Mengamuñoz,Ávila,Castilla y León,05125,https://www.mengamunoz.es,,,40.5009847,-4.9986341,2026-07-28 00:23:34.207023+00
+494,Mesegar de Corneja,Ávila,Castilla y León,05126,https://www.mesegardecorneja.es,,,40.5014247,-5.3016483,2026-07-28 00:23:36.120609+00
+495,Mijares,Ávila,Castilla y León,05127,https://www.mijares.es,,,40.2958062,-4.8369086,2026-07-28 00:23:38.030783+00
+496,Mingorría,Ávila,Castilla y León,05128,https://www.mingorria.es,,,40.7515298,-4.665265,2026-07-28 00:23:40.217982+00
+497,"Mirón, El",Ávila,Castilla y León,05129,https://www.elmiron.es,,,40.5751158,-5.3941849,2026-07-28 00:23:42.484271+00
+498,Mironcillo,Ávila,Castilla y León,05130,https://www.mironcillo.es,,,40.5547207,-4.8237308,2026-07-28 00:23:44.375442+00
+499,Mirueña de los Infanzones,Ávila,Castilla y León,05131,https://www.miruenadelosinfanzones.es,,,40.7370387,-5.0911915,2026-07-28 00:23:46.278856+00
+500,Mombeltrán,Ávila,Castilla y León,05132,https://www.mombeltran.es,,,40.2594639,-5.0167649,2026-07-28 00:23:48.239651+00
+501,Monsalupe,Ávila,Castilla y León,05133,https://www.monsalupe.es,,,40.7692472,-4.7812815,2026-07-28 00:23:50.517332+00
+502,Moraleja de Matacabras,Ávila,Castilla y León,05134,https://www.moralejadematacabras.es,,,41.1072841,-4.9568853,2026-07-28 00:23:52.519814+00
+503,Muñana,Ávila,Castilla y León,05135,https://www.munana.es,,,40.5908234,-5.0143472,2026-07-28 00:23:54.384013+00
+504,Muñico,Ávila,Castilla y León,05136,https://www.munico.es,,,40.706948,-5.0273381,2026-07-28 00:23:56.648181+00
+505,Muñogalindo,Ávila,Castilla y León,05138,https://www.munogalindo.es,,,40.6043441,-4.8982345,2026-07-28 00:23:58.685859+00
+506,Muñogrande,Ávila,Castilla y León,05139,https://www.munogrande.es,,,40.8215974,-4.9215323,2026-07-28 00:24:00.572394+00
+507,Muñomer del Peco,Ávila,Castilla y León,05140,https://www.munomerdelpeco.es,,,40.8592194,-4.8796903,2026-07-28 00:24:02.475984+00
+508,Muñopepe,Ávila,Castilla y León,05141,https://www.munopepe.es,,,40.6346464,-4.8187637,2026-07-28 00:24:04.870432+00
+509,Muñosancho,Ávila,Castilla y León,05142,https://www.munosancho.es,,,40.9209524,-5.0356572,2026-07-28 00:24:06.75561+00
+510,Muñotello,Ávila,Castilla y León,05143,https://www.munotello.es,,,40.5418131,-5.0414952,2026-07-28 00:24:08.389513+00
+511,Narrillos del Álamo,Ávila,Castilla y León,05144,https://www.narrillosdelalamo.es,,,40.5665587,-5.4659816,2026-07-28 00:24:10.146843+00
+512,Narrillos del Rebollar,Ávila,Castilla y León,05145,https://www.narrillosdelrebollar.es,,,40.6649623,-4.9657629,2026-07-28 00:24:11.888324+00
+513,Narros de Saldueña,Ávila,Castilla y León,05149,https://www.narrosdesalduena.es,,,40.8736443,-4.8684267,2026-07-28 00:24:14.224751+00
+514,Narros del Castillo,Ávila,Castilla y León,05147,https://www.narrosdelcastillo.es,,,40.8581972,-5.059892,2026-07-28 00:24:15.859061+00
+515,Narros del Puerto,Ávila,Castilla y León,05148,https://www.narrosdelpuerto.es,,,40.5416959,-4.9918307,2026-07-28 00:24:17.650863+00
+516,Nava de Arévalo,Ávila,Castilla y León,05152,https://www.navadearevalo.es,,,40.9777641,-4.7766642,2026-07-28 00:24:19.53419+00
+517,Nava del Barco,Ávila,Castilla y León,05153,https://www.navadelbarco.es,,,40.2946529,-5.5407808,2026-07-28 00:24:21.257898+00
+518,Navacepedilla de Corneja,Ávila,Castilla y León,05151,https://www.navacepedilladecorneja.es,,,40.4858066,-5.1843419,2026-07-28 00:24:23.02509+00
+519,Navadijos,Ávila,Castilla y León,05154,https://www.navadijos.es,,,40.4244908,-5.0825292,2026-07-28 00:24:24.747276+00
+520,Navaescurial,Ávila,Castilla y León,05155,https://www.navaescurial.es,,,40.4720368,-5.2770456,2026-07-28 00:24:26.684955+00
+521,Navahondilla,Ávila,Castilla y León,05156,https://www.navahondilla.es,,,40.3255013,-4.4933129,2026-07-28 00:24:28.427823+00
+522,Navalacruz,Ávila,Castilla y León,05157,https://www.navalacruz.es,,,40.4398263,-4.9320303,2026-07-28 00:24:30.346014+00
+523,Navalmoral,Ávila,Castilla y León,05158,https://www.navalmoral.es,,,40.4602967,-4.7662162,2026-07-28 00:24:32.426023+00
+524,Navalonguilla,Ávila,Castilla y León,05159,https://www.navalonguilla.es,,,40.2785512,-5.500736,2026-07-28 00:24:34.438547+00
+525,Navalosa,Ávila,Castilla y León,05160,https://www.navalosa.es,,,40.4019381,-4.9304373,2026-07-28 00:24:36.256912+00
+526,Navalperal de Pinares,Ávila,Castilla y León,05161,http://navalperaldepinares.es,,,40.593737,-4.4106804,2026-07-28 00:24:38.201072+00
+527,Navalperal de Tormes,Ávila,Castilla y León,05162,https://www.navalperaldetormes.es,,,40.3527558,-5.301196,2026-07-28 00:24:40.112428+00
+528,Navaluenga,Ávila,Castilla y León,05163,https://aytonavaluenga.es,,,40.4101393,-4.7079974,2026-07-28 00:24:41.961813+00
+529,Navaquesera,Ávila,Castilla y León,05164,https://www.navaquesera.es,,,40.4254949,-4.9108579,2026-07-28 00:24:43.696917+00
+530,Navarredonda de Gredos,Ávila,Castilla y León,05165,https://www.navarredondadegredos.es,,,40.3619081,-5.1330863,2026-07-28 00:24:45.541748+00
+531,Navarredondilla,Ávila,Castilla y León,05166,https://www.navarredondilla.es,,,40.4536784,-4.8223843,2026-07-28 00:24:47.586018+00
+532,Navarrevisca,Ávila,Castilla y León,05167,https://www.navarrevisca.es,,,40.3641041,-4.8949471,2026-07-28 00:24:49.406121+00
+533,"Navas del Marqués, Las",Ávila,Castilla y León,05168,https://lasnavasdelmarques.es,,,40.5891603,-4.3616197,2026-07-28 00:24:51.694125+00
+534,Navatalgordo,Ávila,Castilla y León,05169,https://www.navatalgordo.es,,,40.4157234,-4.8718327,2026-07-28 00:24:53.685686+00
+535,Navatejares,Ávila,Castilla y León,05170,https://www.navatejares.es,,,40.3355162,-5.5320952,2026-07-28 00:24:55.481942+00
+536,Neila de San Miguel,Ávila,Castilla y León,05171,https://www.neiladesanmiguel.es,,,40.4234979,-5.6507565,2026-07-28 00:24:57.548574+00
+537,Niharra,Ávila,Castilla y León,05172,https://www.niharra.es,,,40.5893491,-4.8393483,2026-07-28 00:24:59.624397+00
+538,Ojos-Albos,Ávila,Castilla y León,05173,https://www.aytoojosalbos.es,,,40.7062924,-4.5166059,2026-07-28 00:25:01.667241+00
+539,Orbita,Ávila,Castilla y León,05174,https://www.orbita.es,,,40.9983585,-4.6480105,2026-07-28 00:25:03.568659+00
+540,"Oso, El",Ávila,Castilla y León,05175,https://www.eloso.es,,,40.8548593,-4.7630709,2026-07-28 00:25:05.375321+00
+541,Padiernos,Ávila,Castilla y León,05176,https://www.padiernos.es,,,40.6215544,-4.845327,2026-07-28 00:25:07.044928+00
+542,Pajares de Adaja,Ávila,Castilla y León,05177,https://www.pajaresdeadaja.es,,,40.9237685,-4.6399321,2026-07-28 00:25:09.110282+00
+543,Palacios de Goda,Ávila,Castilla y León,05178,https://www.palaciosdegoda.es,,,41.1174317,-4.7847664,2026-07-28 00:25:10.992185+00
+544,Papatrigo,Ávila,Castilla y León,05179,https://www.papatrigo.es,,,40.8680762,-4.8351177,2026-07-28 00:25:12.680023+00
+545,"Parral, El",Ávila,Castilla y León,05180,https://www.elparral.es,,,40.7978292,-4.9904649,2026-07-28 00:25:14.484577+00
+546,Pascualcobo,Ávila,Castilla y León,05181,https://www.pascualcobo.es,,,40.6561766,-5.2765076,2026-07-28 00:25:16.42614+00
+547,Pedro Bernardo,Ávila,Castilla y León,05182,https://www.pedrobernardo.es,,,40.2439312,-4.9108472,2026-07-28 00:25:18.43906+00
+548,Pedro-Rodríguez,Ávila,Castilla y León,05183,https://www.pedrorodriguez.es,,,40.9365078,-4.7861044,2026-07-28 00:25:20.4369+00
+549,Peguerinos,Ávila,Castilla y León,05184,https://www.peguerinos.es,,,40.627154,-4.2311722,2026-07-28 00:25:22.142442+00
+550,Peñalba de Ávila,Ávila,Castilla y León,05185,https://www.penalbadeavila.es,,,40.7716876,-4.74703,2026-07-28 00:25:24.023895+00
+551,Piedrahíta,Ávila,Castilla y León,05186,https://www.aytopiedrahita.com,,,40.4635304,-5.3277166,2026-07-28 00:25:25.924141+00
+552,Piedralaves,Ávila,Castilla y León,05187,https://www.piedralaves.es,,,40.3181182,-4.6986188,2026-07-28 00:25:27.55855+00
+553,Poveda,Ávila,Castilla y León,05188,https://www.poveda.es,,,40.568,-5.0794334,2026-07-28 00:25:29.326801+00
+554,Poyales del Hoyo,Ávila,Castilla y León,05189,https://www.poyalesdelhoyo.es,,,40.1732011,-5.1651418,2026-07-28 00:25:30.948869+00
+555,Pozanco,Ávila,Castilla y León,05190,https://www.pozanco.es,,,40.800288,-4.6683059,2026-07-28 00:25:32.482352+00
+556,Pradosegar,Ávila,Castilla y León,05191,https://www.pradosegar.es,,,40.5491266,-5.0697404,2026-07-28 00:25:34.223876+00
+557,Puerto Castilla,Ávila,Castilla y León,05192,https://www.puertocastilla.es,,,40.2896265,-5.629666,2026-07-28 00:25:36.542224+00
+558,Rasueros,Ávila,Castilla y León,05193,https://www.rasueros.es,,,41.0232602,-5.0742696,2026-07-28 00:25:38.476011+00
+559,Riocabado,Ávila,Castilla y León,05194,https://www.riocabado.es,,,40.8320259,-4.802935,2026-07-28 00:25:40.408174+00
+560,Riofrío,Ávila,Castilla y León,05195,https://www.riofrio.es,,,40.5477099,-4.778026,2026-07-28 00:25:41.95561+00
+561,Rivilla de Barajas,Ávila,Castilla y León,05196,https://www.rivilladebarajas.es,,,40.9019309,-4.9882631,2026-07-28 00:25:43.902799+00
+562,Salobral,Ávila,Castilla y León,05197,https://www.salobral.es,,,40.6120678,-4.8096732,2026-07-28 00:25:45.87173+00
+563,Salvadiós,Ávila,Castilla y León,05198,https://www.salvadios.es,,,40.8783506,-5.0964251,2026-07-28 00:25:47.916736+00
+564,San Bartolomé de Béjar,Ávila,Castilla y León,05199,https://www.sanbartolomedebejar.es,,,40.4079864,-5.6626602,2026-07-28 00:25:49.788599+00
+565,San Bartolomé de Corneja,Ávila,Castilla y León,05200,https://www.sanbartolomedecorneja.es,,,40.4928456,-5.3841741,2026-07-28 00:25:51.989497+00
+566,San Bartolomé de Pinares,Ávila,Castilla y León,05201,https://www.sanbartolomedepinares.es,,,40.5435143,-4.5397941,2026-07-28 00:25:54.021393+00
+567,San Esteban de los Patos,Ávila,Castilla y León,05206,https://www.sanestebandelospatos.es,,,40.7465117,-4.6246867,2026-07-28 00:25:55.779818+00
+568,San Esteban de Zapardiel,Ávila,Castilla y León,05208,https://www.sanestebandezapardiel.es,,,41.092755,-4.9009616,2026-07-28 00:25:57.475382+00
+569,San Esteban del Valle,Ávila,Castilla y León,05207,https://www.sanestebandelvalle.es,,,40.273668,-4.98058,2026-07-28 00:25:59.594059+00
+570,San García de Ingelmos,Ávila,Castilla y León,05209,https://www.sangarciadeingelmos.es,,,40.7692877,-5.1151447,2026-07-28 00:26:01.405688+00
+571,San Juan de Gredos,Ávila,Castilla y León,05901,https://www.sanjuandegredos.es,,,40.3416673,-5.2299808,2026-07-28 00:26:03.267836+00
+572,San Juan de la Encinilla,Ávila,Castilla y León,05210,https://www.sanjuandelaencinilla.es,,,40.8302999,-4.8379499,2026-07-28 00:26:04.929066+00
+573,San Juan de la Nava,Ávila,Castilla y León,05211,https://sanjuandelanava.org,,,40.4787503,-4.680562,2026-07-28 00:26:06.847884+00
+574,San Juan del Molinillo,Ávila,Castilla y León,05212,https://www.sanjuandelmolinillo.es,,,40.4586971,-4.8179795,2026-07-28 00:26:08.8238+00
+575,San Juan del Olmo,Ávila,Castilla y León,05213,https://www.sanjuandelolmo.es,,,40.6536135,-5.0495566,2026-07-28 00:26:10.65155+00
+576,San Lorenzo de Tormes,Ávila,Castilla y León,05214,https://www.sanlorenzodetormes.es,,,40.3701858,-5.488168,2026-07-28 00:26:12.465253+00
+577,San Martín de la Vega del Alberche,Ávila,Castilla y León,05215,https://www.sanmartindelavegadelalberche.es,,,40.4302807,-5.1557918,2026-07-28 00:26:14.219488+00
+578,San Martín del Pimpollar,Ávila,Castilla y León,05216,https://www.sanmartindelpimpollar.es,,,40.3684174,-5.0549407,2026-07-28 00:26:15.820477+00
+579,San Miguel de Corneja,Ávila,Castilla y León,05217,https://www.sanmigueldecorneja.es,,,40.4873512,-5.2862732,2026-07-28 00:26:17.774598+00
+580,San Miguel de Serrezuela,Ávila,Castilla y León,05218,https://www.sanmigueldeserrezuela.es,,,40.6701416,-5.2877253,2026-07-28 00:26:19.783306+00
+581,San Pascual,Ávila,Castilla y León,05219,https://www.sanpascual.es,,,40.881645,-4.7550974,2026-07-28 00:26:21.956742+00
+582,San Pedro del Arroyo,Ávila,Castilla y León,05220,https://www.sanpedrodelarroyo.es,,,40.8023476,-4.8708817,2026-07-28 00:26:24.274396+00
+583,San Vicente de Arévalo,Ávila,Castilla y León,05231,https://www.sanvicentedearevalo.es,,,40.9677961,-4.8009144,2026-07-28 00:26:26.404032+00
+584,Sanchidrián,Ávila,Castilla y León,05204,https://www.sanchidrian.es,,,40.8932876,-4.5831845,2026-07-28 00:26:28.646795+00
+585,Sanchorreja,Ávila,Castilla y León,05205,https://www.sanchorreja.es,,,40.6646581,-4.9146123,2026-07-28 00:26:30.747852+00
+586,Santa Cruz de Pinares,Ávila,Castilla y León,05222,https://www.santacruzdepinares.es,,,40.5420093,-4.5789276,2026-07-28 00:26:33.074892+00
+587,Santa Cruz del Valle,Ávila,Castilla y León,05221,https://www.santacruzdelvalle.es,,,40.2518102,-5.0018227,2026-07-28 00:26:35.538181+00
+588,Santa María de los Caballeros,Ávila,Castilla y León,05226,https://www.santamariadeloscaballeros.es,,,40.3887337,-5.4514771,2026-07-28 00:26:37.72814+00
+589,Santa María del Arroyo,Ávila,Castilla y León,05224,https://www.santamariadelarroyo.es,,,40.6012086,-4.9237848,2026-07-28 00:26:39.892042+00
+590,Santa María del Berrocal,Ávila,Castilla y León,05225,https://www.santamariadelberrocal.es,,,40.5081245,-5.4053099,2026-07-28 00:26:42.172614+00
+591,Santa María del Cubillo,Ávila,Castilla y León,05902,https://www.santamariadelcubillo.es,,,40.7119986,-4.4464113,2026-07-28 00:26:44.410445+00
+592,Santa María del Tiétar,Ávila,Castilla y León,05227,https://www.santamariadeltietar.es,,,40.3042531,-4.5541531,2026-07-28 00:26:46.668188+00
+593,Santiago del Collado,Ávila,Castilla y León,05228,https://www.santiagodelcollado.es,,,40.4335719,-5.3564924,2026-07-28 00:26:48.774884+00
+594,Santiago del Tormes,Ávila,Castilla y León,05904,https://www.santiagodeltormes.es,,,40.3450154,-5.3963831,2026-07-28 00:26:50.725316+00
+595,Santo Domingo de las Posadas,Ávila,Castilla y León,05229,https://www.santodomingodelasposadas.es,,,40.8118343,-4.6344621,2026-07-28 00:26:53.205911+00
+596,Santo Tomé de Zabarcos,Ávila,Castilla y León,05230,https://www.santotomedezabarcos.es,,,40.7868813,-4.9105385,2026-07-28 00:26:54.932395+00
+597,"Serrada, La",Ávila,Castilla y León,05232,https://www.laserrada.es,,,40.6265687,-4.782994,2026-07-28 00:26:57.168406+00
+598,Serranillos,Ávila,Castilla y León,05233,https://www.serranillos.es,,,40.3370385,-4.9110018,2026-07-28 00:26:59.256845+00
+599,Sigeres,Ávila,Castilla y León,05234,https://www.sigeres.es,,,40.798821,-4.9333971,2026-07-28 00:27:01.39424+00
+600,Sinlabajos,Ávila,Castilla y León,05235,https://www.sinlabajos.es,,,41.0754442,-4.831095,2026-07-28 00:27:03.530692+00
+601,Solana de Ávila,Ávila,Castilla y León,05236,https://www.solanadeavila.es,,,40.3154483,-5.6122436,2026-07-28 00:27:05.41017+00
+602,Solana de Rioalmar,Ávila,Castilla y León,05237,https://www.solanaderioalmar.es,,,40.7380008,-5.0102947,2026-07-28 00:27:07.474748+00
+603,Solosancho,Ávila,Castilla y León,05238,https://www.solosancho.com,,,40.552537,-4.9050209,2026-07-28 00:27:09.195402+00
+604,Sotalbo,Ávila,Castilla y León,05239,https://www.sotalbo.es,,,40.5417959,-4.8485522,2026-07-28 00:27:11.234245+00
+605,Sotillo de la Adrada,Ávila,Castilla y León,05240,https://www.sotillo.net,,,40.2920324,-4.5826532,2026-07-28 00:27:13.481634+00
+606,"Tiemblo, El",Ávila,Castilla y León,05241,https://www.eltiemblo.es,,,40.3578565,-4.5107456,2026-07-28 00:27:15.390547+00
+607,Tiñosillos,Ávila,Castilla y León,05242,https://www.tinosillos.es,,,40.934253,-4.7275523,2026-07-28 00:27:16.956972+00
+608,Tolbaños,Ávila,Castilla y León,05243,https://www.tolbanos.es,,,40.7515462,-4.5818637,2026-07-28 00:27:18.920796+00
+609,Tormellas,Ávila,Castilla y León,05244,https://www.tormellas.es,,,40.3041646,-5.5117428,2026-07-28 00:27:20.681942+00
+610,Tornadizos de Ávila,Ávila,Castilla y León,05245,https://www.tornadizosdeavila.es,,,40.6260978,-4.6132023,2026-07-28 00:27:22.748158+00
+611,"Torre, La",Ávila,Castilla y León,05247,https://www.latorre.es,,,40.5933057,-5.30796,2026-07-28 00:27:24.931484+00
+612,Tórtoles,Ávila,Castilla y León,05246,https://www.tortoles.es,,,40.5614138,-5.2617982,2026-07-28 00:27:26.917023+00
+613,Umbrías,Ávila,Castilla y León,05249,https://www.umbrias.es,,,40.3131382,-5.5785075,2026-07-28 00:27:28.760477+00
+614,Vadillo de la Sierra,Ávila,Castilla y León,05251,https://www.vadillodelasierra.es,,,40.6063594,-5.1248517,2026-07-28 00:27:30.554865+00
+615,Valdecasa,Ávila,Castilla y León,05252,https://www.valdecasa.es,,,40.659698,-5.011903,2026-07-28 00:27:32.332476+00
+616,Vega de Santa María,Ávila,Castilla y León,05253,https://www.vegadesantamaria.es,,,40.8362375,-4.6427746,2026-07-28 00:27:34.401763+00
+617,Velayos,Ávila,Castilla y León,05254,https://www.velayos.es,,,40.840986,-4.6226763,2026-07-28 00:27:36.310928+00
+618,Villaflor,Ávila,Castilla y León,05256,https://www.villaflor.es,,,40.7582122,-4.8745021,2026-07-28 00:27:38.242809+00
+619,Villafranca de la Sierra,Ávila,Castilla y León,05257,https://www.villafrancadelasierra.es,,,40.4984796,-5.2313259,2026-07-28 00:27:40.084755+00
+620,Villanueva de Ávila,Ávila,Castilla y León,05905,https://www.villanuevadeavila.es,,,40.3799296,-4.8211749,2026-07-28 00:27:42.10138+00
+621,Villanueva de Gómez,Ávila,Castilla y León,05258,https://www.villanuevadegomez.es,,,40.8822647,-4.716141,2026-07-28 00:27:43.700575+00
+622,Villanueva del Aceral,Ávila,Castilla y León,05259,https://www.villanuevadelaceral.es,,,41.0417451,-4.8542126,2026-07-28 00:27:45.48795+00
+623,Villanueva del Campillo,Ávila,Castilla y León,05260,https://www.villanuevadelcampillo.es,,,40.5769506,-5.179421,2026-07-28 00:27:48.107766+00
+624,Villar de Corneja,Ávila,Castilla y León,05261,https://www.villardecorneja.es,,,40.4747394,-5.4341556,2026-07-28 00:27:49.733141+00
+625,Villarejo del Valle,Ávila,Castilla y León,05262,https://www.villarejodelvalle.es,,,40.2867537,-4.9957469,2026-07-28 00:27:51.544383+00
+626,Villatoro,Ávila,Castilla y León,05263,https://www.villatoro.es,,,40.5557932,-5.1124361,2026-07-28 00:27:53.3855+00
+627,Viñegra de Moraña,Ávila,Castilla y León,05264,https://www.vinegrademorana.es,,,40.8504638,-4.9211106,2026-07-28 00:27:55.144406+00
+628,Vita,Ávila,Castilla y León,05265,https://www.vita.es,,,40.8113662,-5.0053801,2026-07-28 00:27:57.123222+00
+629,Zapardiel de la Cañada,Ávila,Castilla y León,05266,https://www.zapardieldelacanada.es,,,40.606713,-5.3385249,2026-07-28 00:27:58.776908+00
+630,Zapardiel de la Ribera,Ávila,Castilla y León,05267,https://zapardieldelaribera.com,,,40.3554346,-5.3287255,2026-07-28 00:28:00.538804+00
