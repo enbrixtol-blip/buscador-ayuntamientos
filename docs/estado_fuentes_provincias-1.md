@@ -59,7 +59,7 @@ Estado: pendiente / en_progreso / hecho
 | Teruel | https://www.dpteruel.es/DPTweb/municipios/ | A | hecho | Parte del dataset conjunto de Aragón (Huesca+Zaragoza+Teruel): 578/731 en total. https://zenodo.org/records/17573972/files/municipios_Aragon.csv?download=1 |
 | Toledo | https://www.diputoledo.es/global/11/50/169/dir_municipios | B | pendiente | |
 | València/Valencia | http://www.dival.es/es/content/entidades-locales | B | pendiente | |
-| Valladolid | http://www.ayuntamientosdevalladolid.es/ | B | pendiente | |
+| Valladolid | http://www.ayuntamientosdevalladolid.es/ | B | hecho | |
 | Bizkaia/Vizcaya | http://www.bizkaia.net/home2/ca_index.asp | C | hecho | |
 | Zamora | https://www.diputaciondezamora.es/opencms/provincia/nuestros-ayuntamientos/nuestros-ayuntamientos/ | B | pendiente | |
 | Zaragoza | http://www.dpz.es/municipio | A | hecho | Parte del dataset conjunto de Aragón (Huesca+Zaragoza+Teruel): 578/731 en total. https://zenodo.org/records/17573972/files/municipios_Aragon.csv?download=1 |
