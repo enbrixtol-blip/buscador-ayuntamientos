@@ -113,3 +113,21 @@ han aparecido estos otros patrones al comparar nombres entre fuentes:
   o, si son muy pocos casos, directamente a mano desde el Table Editor de
   Supabase, editando la fila y escribiendo la URL en `url_ayuntamiento`
   sin necesidad de tocar código.
+
+## Cruzar por codigo_ine en vez de por id (lección de Albacete)
+
+Cuando trabajes con un volcado de la propia tabla `municipios` (exportado y
+rellenado por otra sesión, como los de Ávila, Palencia, Albacete o
+Valladolid), **no confíes en la columna `id` para volver a cruzar los
+datos**. Se detectó un caso (Albacete) donde el `id` de las filas venía
+desplazado respecto al real de la base de datos, lo que habría asignado
+la URL de un municipio a otro distinto sin ningún aviso de error.
+
+En su lugar, usa siempre **`codigo_ine`** como clave de cruce — es el
+código oficial del INE, estable y no depende de cómo cada sesión haya
+numerado internamente sus filas. Antes de lanzar el script, comprueba que
+los `codigo_ine` del CSV son únicos:
+
+```python
+codigos = [f["codigo_ine"] for f in filas]
+assert len(codigos) == len(set(codigos))
