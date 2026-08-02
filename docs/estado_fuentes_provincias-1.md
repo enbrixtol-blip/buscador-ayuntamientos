@@ -13,7 +13,7 @@ Estado: pendiente / en_progreso / hecho
 |---|---|---|---|---|
 | Alacant/Alicante | https://documentacion.diputacionalicante.es/dlocal.asp | B | hecho | 141/143 (CSV manual, scripts/provincias/alicante.py). Xara y Jesús Pobre excluidos: son pedanías de Dénia, no municipios independientes. Casos de cambio de nombre oficial resueltos a mano: Facheca→Fageca (2021), Alcocer de Planes→Alcosser. |
 | Araba/Álava | https://www.araba.eus/elva/Nomenclator/ELVA5003NomMuni.asp | C | hecho | 51/51, CSV manual (scripts/provincias/alava.py) |
-| Albacete | https://www.albacete.es/es | D | pendiente | Enlaza solo a la capital, no a un directorio |
+| Albacete | https://www.albacete.es/es | D | hecho | Enlaza solo a la capital, no a un directorio |
 | Almería | http://www.dipalme.org/ | B | pendiente | |
 | Asturias | http://www.facc.info/?page_id=341 | B | pendiente | |
 | Ávila | https://www.diputacionavila.es/la-provincia/nuestros-pueblos/ | B | hecho | |
