@@ -52,7 +52,7 @@ Estado: pendiente / en_progreso / hecho
 | Rioja, La | http://www.larioja.org/npRioja/default/defaultpage.jsp?idtab=559068&id_str=6&id_ele=854&id_opt=0 | C | pendiente | |
 | Salamanca | http://www.dipsanet.es/Aplicaciones/GestorInter.jsp?prestacion=Cipublico&funcion=MuestraMunicipios&codProvincia=37 | C | en_progreso | Recopilando CSV manual (como Burgos) |
 | Santa Cruz de Tenerife | https://www.tenerife.es/municipios | B | hecho | 53/53, CSV manual (scripts/provincias/santacruzdetenerife.py) |
-| Segovia | https://www.dipsegovia.es/la-provincia/municipios | B | pendiente | |
+| Segovia | https://www.dipsegovia.es/la-provincia/municipios | B | hecho | |
 | Sevilla | http://www.dipusevilla.es/municipios/ | B | pendiente | |
 | Soria | http://www.dipsoria.com/index.php/mod.municipios/mem.listado/relcategoria.208/relmenu.135 | B | pendiente | |
 | Tarragona | https://www.dipta.cat/municipi | B | pendiente | |
