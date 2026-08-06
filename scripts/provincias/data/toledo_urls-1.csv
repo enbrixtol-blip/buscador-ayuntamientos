@@ -1,0 +1,205 @@
+id,nombre,provincia,ccaa,codigo_ine,url_ayuntamiento,url_fuente_noticias,tipo_fuente,latitud,longitud,created_at
+6782,Ajofrín,Toledo,Castilla-La Mancha,45001,https://www.ajofrin.es,,,39.7111302,-3.98115,2026-07-28 10:00:11.355882+00
+6783,Alameda de la Sagra,Toledo,Castilla-La Mancha,45002,https://www.alamedadelasagra.es,,,40.013303,-3.7968786,2026-07-28 10:00:12.839469+00
+6784,Albarreal de Tajo,Toledo,Castilla-La Mancha,45003,https://www.albarrealdetajo.es,,,39.8974511,-4.228543,2026-07-28 10:00:14.496394+00
+6785,Alcabón,Toledo,Castilla-La Mancha,45004,https://www.alcabon.es,,,40.0037832,-4.3687968,2026-07-28 10:00:15.938175+00
+6786,Alcañizo,Toledo,Castilla-La Mancha,45005,https://www.alcanizo.es,,,39.9026662,-5.1053,2026-07-28 10:00:17.589366+00
+6787,Alcaudete de la Jara,Toledo,Castilla-La Mancha,45006,https://www.alcaudetedelajara.es,,,39.7884846,-4.8700887,2026-07-28 10:00:19.056269+00
+6788,Alcolea de Tajo,Toledo,Castilla-La Mancha,45007,https://www.alcoleadetajo.es,,,39.8092556,-5.1477785,2026-07-28 10:00:21.022281+00
+6789,Aldea en Cabo,Toledo,Castilla-La Mancha,45008,https://www.aldeaencabo.es,,,40.1845515,-4.4573374,2026-07-28 10:00:22.759811+00
+6790,Aldeanueva de Barbarroya,Toledo,Castilla-La Mancha,45009,https://www.aldeanuevadebarbarroya.es,,,39.7598669,-5.0215262,2026-07-28 10:00:24.220157+00
+6791,Aldeanueva de San Bartolomé,Toledo,Castilla-La Mancha,45010,https://www.aldeanuevadesanbartolome.es,,,39.6368863,-5.1127897,2026-07-28 10:00:25.689628+00
+6792,Almendral de la Cañada,Toledo,Castilla-La Mancha,45011,https://www.almendrallacanada.es,,,40.1833702,-4.7405076,2026-07-28 10:00:27.383495+00
+6793,Almonacid de Toledo,Toledo,Castilla-La Mancha,45012,https://www.almonaciddetoledo.es,,,39.7538204,-3.8543691,2026-07-28 10:00:29.00284+00
+6794,Almorox,Toledo,Castilla-La Mancha,45013,https://www.almorox.es,,,40.2335016,-4.3906553,2026-07-28 10:00:30.634748+00
+6795,Añover de Tajo,Toledo,Castilla-La Mancha,45014,https://www.anoverdetajo.es,,,39.9877375,-3.7660548,2026-07-28 10:00:32.250867+00
+6796,Arcicóllar,Toledo,Castilla-La Mancha,45015,https://www.arcicollar.es,,,40.0541018,-4.1159804,2026-07-28 10:00:33.863394+00
+6797,Argés,Toledo,Castilla-La Mancha,45016,https://www.arges.es,,,39.8062915,-4.056902,2026-07-28 10:00:35.409168+00
+6798,Azután,Toledo,Castilla-La Mancha,45017,https://www.azutan.es,,,39.7858328,-5.1271648,2026-07-28 10:00:36.994812+00
+6799,Barcience,Toledo,Castilla-La Mancha,45018,https://www.barcience.es,,,39.9834419,-4.2362793,2026-07-28 10:00:38.436716+00
+6800,Bargas,Toledo,Castilla-La Mancha,45019,https://www.bargas.es,,,39.9393212,-4.0201526,2026-07-28 10:00:40.020644+00
+6801,Belvís de la Jara,Toledo,Castilla-La Mancha,45020,https://www.belvisdelajara.es,,,39.7594199,-4.9496046,2026-07-28 10:00:41.442046+00
+6802,Borox,Toledo,Castilla-La Mancha,45021,https://www.borox.es,,,40.06967,-3.7411508,2026-07-28 10:00:43.098633+00
+6803,Buenaventura,Toledo,Castilla-La Mancha,45022,https://www.aytobuenaventura.es,,,40.1766024,-4.8498756,2026-07-28 10:00:44.66186+00
+6804,Burguillos de Toledo,Toledo,Castilla-La Mancha,45023,https://www.burguillosdetoledo.es,,,39.7983122,-3.9915094,2026-07-28 10:00:46.294813+00
+6805,Burujón,Toledo,Castilla-La Mancha,45024,https://www.burujon.es,,,39.901105,-4.2981451,2026-07-28 10:00:47.732971+00
+6806,Cabañas de la Sagra,Toledo,Castilla-La Mancha,45025,https://www.cabanasdelasagra.es,,,40.005774,-3.9479133,2026-07-28 10:00:49.191813+00
+6807,Cabañas de Yepes,Toledo,Castilla-La Mancha,45026,https://www.cabanasdeyepes.es,,,39.8904689,-3.535343,2026-07-28 10:00:50.865359+00
+6808,Cabezamesada,Toledo,Castilla-La Mancha,45027,https://www.cabezamesada.es,,,39.8166147,-3.1029185,2026-07-28 10:00:52.339719+00
+6809,Calera y Chozas,Toledo,Castilla-La Mancha,45028,https://www.caleraychozas.es,,,39.8814627,-4.9786164,2026-07-28 10:00:53.839674+00
+6810,Caleruela,Toledo,Castilla-La Mancha,45029,no encontrada,,,39.8744972,-5.2558765,2026-07-28 10:00:55.461219+00
+6811,Calzada de Oropesa,Toledo,Castilla-La Mancha,45030,https://www.calzadadeoropesa.es,,,39.8978576,-5.2785136,2026-07-28 10:00:57.025846+00
+6812,Camarena,Toledo,Castilla-La Mancha,45031,https://www.camarena.es,,,40.0925817,-4.1212536,2026-07-28 10:00:58.490202+00
+6813,Camarenilla,Toledo,Castilla-La Mancha,45032,https://www.camarenilla.es,,,40.0172068,-4.0738169,2026-07-28 10:01:00.101481+00
+6814,"Campillo de la Jara, El",Toledo,Castilla-La Mancha,45033,https://www.elcampillodelajara.es,,,39.5899342,-5.0548567,2026-07-28 10:01:02.457813+00
+6815,Camuñas,Toledo,Castilla-La Mancha,45034,https://www.camunas.es,,,39.4283079,-3.4551614,2026-07-28 10:01:04.019457+00
+6816,Cardiel de los Montes,Toledo,Castilla-La Mancha,45035,https://www.cardieldelosmontes.es,,,40.0644722,-4.6554196,2026-07-28 10:01:05.573182+00
+6817,Carmena,Toledo,Castilla-La Mancha,45036,https://www.carmena.es,,,39.9297578,-4.4005088,2026-07-28 10:01:07.177059+00
+6818,"Carpio de Tajo, El",Toledo,Castilla-La Mancha,45037,https://www.elcarpiodetajo.es,,,39.8874679,-4.454366,2026-07-28 10:01:08.825536+00
+6819,Carranque,Toledo,Castilla-La Mancha,45038,https://www.carranque.es,,,40.1702567,-3.9000333,2026-07-28 10:01:10.477919+00
+6820,Carriches,Toledo,Castilla-La Mancha,45039,https://www.carriches.es,,,39.9639132,-4.4586415,2026-07-28 10:01:12.087468+00
+6821,"Casar de Escalona, El",Toledo,Castilla-La Mancha,45040,https://www.elcasardeescalona.es,,,40.1612948,-4.3865946,2026-07-28 10:01:13.751369+00
+6822,Casarrubios del Monte,Toledo,Castilla-La Mancha,45041,https://www.casarrubiosdelmonte.es,,,40.185405,-4.0377056,2026-07-28 10:01:15.223766+00
+6823,Casasbuenas,Toledo,Castilla-La Mancha,45042,https://www.casasbuenas.es,,,39.7607428,-4.1264909,2026-07-28 10:01:16.624283+00
+6824,Castillo de Bayuela,Toledo,Castilla-La Mancha,45043,https://www.castillodebayuela.es,,,40.0998825,-4.6851982,2026-07-28 10:01:18.028194+00
+6825,Cazalegas,Toledo,Castilla-La Mancha,45045,https://www.cazalegas.es,,,40.0099432,-4.6772621,2026-07-28 10:01:19.428896+00
+6826,Cebolla,Toledo,Castilla-La Mancha,45046,https://www.cebolla.es,,,39.9470727,-4.5726539,2026-07-28 10:01:20.895113+00
+6827,Cedillo del Condado,Toledo,Castilla-La Mancha,45047,https://www.cedillodelcondado.es,,,40.1153734,-3.9257738,2026-07-28 10:01:22.558864+00
+6828,"Cerralbos, Los",Toledo,Castilla-La Mancha,45048,https://www.loscerralbos.es,,,39.9807911,-4.5723966,2026-07-28 10:01:24.225137+00
+6829,Cervera de los Montes,Toledo,Castilla-La Mancha,45049,https://www.cerveradelosmontes.es,,,40.0514382,-4.8102512,2026-07-28 10:01:25.847788+00
+6830,Chozas de Canales,Toledo,Castilla-La Mancha,45056,https://www.chozasdecanales.es,,,40.0994053,-4.0438492,2026-07-28 10:01:27.455526+00
+6831,Chueca,Toledo,Castilla-La Mancha,45057,https://www.chueca.es,,,39.7318213,-3.9436324,2026-07-28 10:01:29.093684+00
+6832,Ciruelos,Toledo,Castilla-La Mancha,45050,https://www.ciruelos.es,,,39.9383171,-3.6137358,2026-07-28 10:01:30.528728+00
+6833,Cobeja,Toledo,Castilla-La Mancha,45051,https://www.cobeja.es,,,40.0235161,-3.8581058,2026-07-28 10:01:32.15763+00
+6834,Cobisa,Toledo,Castilla-La Mancha,45052,https://www.cobisa.es,,,39.8044211,-4.0247277,2026-07-28 10:01:33.555448+00
+6835,Consuegra,Toledo,Castilla-La Mancha,45053,https://www.consuegra.es,,,39.460918,-3.6070786,2026-07-28 10:01:35.10775+00
+6836,Corral de Almaguer,Toledo,Castilla-La Mancha,45054,https://www.corraldealmaguer.es,,,39.7607947,-3.168367,2026-07-28 10:01:36.528775+00
+6837,Cuerva,Toledo,Castilla-La Mancha,45055,https://www.cuerva.es,,,39.6639009,-4.2103258,2026-07-28 10:01:37.941983+00
+6838,Domingo Pérez,Toledo,Castilla-La Mancha,45058,https://www.domingoperez.es,,,39.9757512,-4.5049656,2026-07-28 10:01:39.623384+00
+6839,Dosbarrios,Toledo,Castilla-La Mancha,45059,https://www.dosbarrios.com,,,39.8833764,-3.4820586,2026-07-28 10:01:41.235281+00
+6840,Erustes,Toledo,Castilla-La Mancha,45060,https://www.erustes.es,,,39.9558916,-4.4979461,2026-07-28 10:01:42.805521+00
+6841,Escalona,Toledo,Castilla-La Mancha,45061,https://www.escalona.es,,,40.1665576,-4.4038607,2026-07-28 10:01:44.355323+00
+6842,Escalonilla,Toledo,Castilla-La Mancha,45062,https://www.escalonilla.es,,,39.9249689,-4.3488172,2026-07-28 10:01:45.975053+00
+6843,Espinoso del Rey,Toledo,Castilla-La Mancha,45063,https://www.espinosodelrey.es,,,39.6525317,-4.7842048,2026-07-28 10:01:47.595709+00
+6844,Esquivias,Toledo,Castilla-La Mancha,45064,https://www.esquivias.es,,,40.1040681,-3.7674804,2026-07-28 10:01:49.209131+00
+6845,"Estrella, La",Toledo,Castilla-La Mancha,45065,https://www.laestrella.es,,,39.6898035,-5.0933003,2026-07-28 10:01:50.811208+00
+6846,Fuensalida,Toledo,Castilla-La Mancha,45066,https://www.fuensalida.com,,,40.0530549,-4.2088378,2026-07-28 10:01:52.438033+00
+6847,Gálvez,Toledo,Castilla-La Mancha,45067,https://www.galvez.es,,,39.7005585,-4.2737085,2026-07-28 10:01:54.19172+00
+6848,Garciotum,Toledo,Castilla-La Mancha,45068,https://www.garciotum.es,,,40.0986693,-4.6470658,2026-07-28 10:01:55.630431+00
+6849,Gerindote,Toledo,Castilla-La Mancha,45069,https://www.gerindote.es,,,39.9655586,-4.3022455,2026-07-28 10:01:57.059081+00
+6850,Guadamur,Toledo,Castilla-La Mancha,45070,https://www.guadamur.es,,,39.8113689,-4.1488803,2026-07-28 10:01:58.489077+00
+6851,"Guardia, La",Toledo,Castilla-La Mancha,45071,https://www.laguardia.es,,,39.7870986,-3.4757592,2026-07-28 10:02:00.237554+00
+6852,"Herencias, Las",Toledo,Castilla-La Mancha,45072,https://www.lasherencias.es,,,39.9119696,-4.8697085,2026-07-28 10:02:01.903585+00
+6853,Herreruela de Oropesa,Toledo,Castilla-La Mancha,45073,https://www.herrerueladeoropesa.es,,,39.8887993,-5.2421986,2026-07-28 10:02:03.437271+00
+6854,Hinojosa de San Vicente,Toledo,Castilla-La Mancha,45074,https://www.hinojosadesanvicente.es,,,40.1046807,-4.7225424,2026-07-28 10:02:04.86169+00
+6855,Hontanar,Toledo,Castilla-La Mancha,45075,https://www.hontanar.es,,,39.6123384,-4.4982966,2026-07-28 10:02:06.535591+00
+6856,Hormigos,Toledo,Castilla-La Mancha,45076,https://www.hormigos.es,,,40.0978717,-4.4443425,2026-07-28 10:02:08.141267+00
+6857,Huecas,Toledo,Castilla-La Mancha,45077,https://www.huecas.es,,,40.011646,-4.195586,2026-07-28 10:02:09.749565+00
+6858,Huerta de Valdecarábanos,Toledo,Castilla-La Mancha,45078,https://www.huertadevaldecarabanos.es,,,39.862804,-3.6112173,2026-07-28 10:02:11.34572+00
+6859,"Iglesuela del Tiétar, La",Toledo,Castilla-La Mancha,45079,https://www.laiglesueladeltietar.es,,,40.2326671,-4.7515028,2026-07-28 10:02:12.917419+00
+6860,Illán de Vacas,Toledo,Castilla-La Mancha,45080,https://www.illandevacas.es,,,39.9710315,-4.5570488,2026-07-28 10:02:14.517843+00
+6861,Illescas,Toledo,Castilla-La Mancha,45081,https://www.illescas.es,,,40.1248436,-3.8492688,2026-07-28 10:02:15.970625+00
+6862,Lagartera,Toledo,Castilla-La Mancha,45082,https://www.lagartera.es,,,39.9065329,-5.2009586,2026-07-28 10:02:17.634918+00
+6863,Layos,Toledo,Castilla-La Mancha,45083,https://www.layos.es,,,39.77672,-4.0638382,2026-07-28 10:02:19.346725+00
+6864,Lillo,Toledo,Castilla-La Mancha,45084,https://www.lillo.es,,,39.7231443,-3.304908,2026-07-28 10:02:21.097239+00
+6865,Lominchar,Toledo,Castilla-La Mancha,45085,https://www.lominchar.es,,,40.0900948,-3.9665995,2026-07-28 10:02:22.66892+00
+6866,Lucillos,Toledo,Castilla-La Mancha,45086,https://www.lucillos.es,,,39.9849265,-4.6117589,2026-07-28 10:02:24.290884+00
+6867,Madridejos,Toledo,Castilla-La Mancha,45087,https://www.madridejos.es,,,39.4699854,-3.5323696,2026-07-28 10:02:25.742129+00
+6868,Magán,Toledo,Castilla-La Mancha,45088,https://www.magan.es,,,39.961848,-3.9308991,2026-07-28 10:02:27.400927+00
+6869,Malpica de Tajo,Toledo,Castilla-La Mancha,45089,https://www.malpicadetajo.es,,,39.8946197,-4.54845,2026-07-28 10:02:29.089911+00
+6870,Manzaneque,Toledo,Castilla-La Mancha,45090,https://www.manzaneque.es,,,39.635631,-3.7930731,2026-07-28 10:02:30.700798+00
+6871,Maqueda,Toledo,Castilla-La Mancha,45091,https://www.maqueda.es,,,40.0655255,-4.3705358,2026-07-28 10:02:32.336223+00
+6872,Marjaliza,Toledo,Castilla-La Mancha,45092,https://www.marjaliza.es,,,39.5632323,-3.9343743,2026-07-28 10:02:33.776937+00
+6873,Marrupe,Toledo,Castilla-La Mancha,45093,https://www.marrupe.es,,,40.0901761,-4.7942637,2026-07-28 10:02:35.415394+00
+6874,Mascaraque,Toledo,Castilla-La Mancha,45094,https://www.mascaraque.es,,,39.7160016,-3.8124941,2026-07-28 10:02:37.011475+00
+6875,"Mata, La",Toledo,Castilla-La Mancha,45095,https://www.lamata.es,,,39.9430829,-4.4379535,2026-07-28 10:02:39.016714+00
+6876,Mazarambroz,Toledo,Castilla-La Mancha,45096,https://www.mazarambroz.es,,,39.694389,-4.0211162,2026-07-28 10:02:40.608765+00
+6877,Mejorada,Toledo,Castilla-La Mancha,45097,https://www.ayto-mejorada.es,,,40.010038,-4.8831104,2026-07-28 10:02:42.045197+00
+6878,Menasalbas,Toledo,Castilla-La Mancha,45098,https://www.menasalbas.es,,,39.6410143,-4.2836557,2026-07-28 10:02:43.590396+00
+6879,Méntrida,Toledo,Castilla-La Mancha,45099,https://www.mentrida.es,,,40.2379032,-4.1945535,2026-07-28 10:02:45.211757+00
+6880,Mesegar de Tajo,Toledo,Castilla-La Mancha,45100,https://www.mesegardetajo.es,,,39.9253874,-4.5020573,2026-07-28 10:02:46.768452+00
+6881,Miguel Esteban,Toledo,Castilla-La Mancha,45101,https://www.miguelesteban.es,,,39.5260507,-3.076188,2026-07-28 10:02:48.490915+00
+6882,Mocejón,Toledo,Castilla-La Mancha,45102,https://www.mocejon.es,,,39.9381943,-3.9168339,2026-07-28 10:02:50.124703+00
+6883,Mohedas de la Jara,Toledo,Castilla-La Mancha,45103,https://www.mohedasdelajara.es,,,39.6042018,-5.1440056,2026-07-28 10:02:51.746858+00
+6884,Montearagón,Toledo,Castilla-La Mancha,45104,https://www.montearagon.es,,,39.964403,-4.631065,2026-07-28 10:02:53.381298+00
+6885,Montesclaros,Toledo,Castilla-La Mancha,45105,https://www.montesclaros.es,,,40.106226,-4.9389917,2026-07-28 10:02:54.934505+00
+6886,Mora,Toledo,Castilla-La Mancha,45106,https://www.mora.es,,,39.683223,-3.7727849,2026-07-28 10:02:56.598219+00
+6887,Nambroca,Toledo,Castilla-La Mancha,45107,https://www.nambroca.es,,,39.7978442,-3.9444599,2026-07-28 10:02:58.219721+00
+6888,"Nava de Ricomalillo, La",Toledo,Castilla-La Mancha,45108,https://www.lanavadericomalillo.es,,,39.6494555,-4.9903057,2026-07-28 10:02:59.900601+00
+6889,Navahermosa,Toledo,Castilla-La Mancha,45109,https://www.navahermosa.es,,,39.6334281,-4.4691896,2026-07-28 10:03:01.451005+00
+6890,Navalcán,Toledo,Castilla-La Mancha,45110,https://www.navalcan.es,,,40.0690965,-5.0931741,2026-07-28 10:03:03.046571+00
+6891,Navalmoralejo,Toledo,Castilla-La Mancha,45111,https://www.navalmoralejo.es,,,39.739225,-5.1429775,2026-07-28 10:03:04.695679+00
+6892,"Navalmorales, Los",Toledo,Castilla-La Mancha,45112,https://www.losnavalmorales.es,,,39.7185009,-4.6414652,2026-07-28 10:03:06.28981+00
+6893,"Navalucillos, Los",Toledo,Castilla-La Mancha,45113,https://www.losnavalucillos.es,,,39.5472915,-4.6430274,2026-07-28 10:03:07.892649+00
+6894,Navamorcuende,Toledo,Castilla-La Mancha,45114,https://www.navamorcuende.es,,,40.1575366,-4.7854397,2026-07-28 10:03:09.567637+00
+6895,Noblejas,Toledo,Castilla-La Mancha,45115,https://www.noblejas.es,,,39.9803187,-3.4403876,2026-07-28 10:03:11.145066+00
+6896,Noez,Toledo,Castilla-La Mancha,45116,https://www.noez.es,,,39.7409874,-4.1842477,2026-07-28 10:03:12.776087+00
+6897,Nombela,Toledo,Castilla-La Mancha,45117,https://www.nombela.es,,,40.1570908,-4.5033817,2026-07-28 10:03:14.226154+00
+6898,Novés,Toledo,Castilla-La Mancha,45118,https://www.noves.es,,,40.0450267,-4.2730023,2026-07-28 10:03:15.928545+00
+6899,Numancia de la Sagra,Toledo,Castilla-La Mancha,45119,https://www.numanciadelasagra.es,,,40.0785096,-3.8569693,2026-07-28 10:03:17.573404+00
+6900,Nuño Gómez,Toledo,Castilla-La Mancha,45120,https://www.nunogomez.es,,,40.1149907,-4.6180673,2026-07-28 10:03:19.212837+00
+6901,Ocaña,Toledo,Castilla-La Mancha,45121,https://www.ocana.es,,,39.9586665,-3.5007717,2026-07-28 10:03:20.835163+00
+6902,Olías del Rey,Toledo,Castilla-La Mancha,45122,https://www.oliasdelrey.es,,,39.9447357,-3.9872516,2026-07-28 10:03:22.454198+00
+6903,Ontígola,Toledo,Castilla-La Mancha,45123,https://www.ontigola.es,,,40.00348,-3.572782,2026-07-28 10:03:24.101305+00
+6904,Orgaz,Toledo,Castilla-La Mancha,45124,https://www.orgaz.es,,,39.6486431,-3.8746954,2026-07-28 10:03:25.765643+00
+6905,Oropesa,Toledo,Castilla-La Mancha,45125,https://www.oropesa.es,,,39.917226,-5.1747521,2026-07-28 10:03:27.476216+00
+6906,Otero,Toledo,Castilla-La Mancha,45126,https://www.otero.es,,,40.0011174,-4.5153249,2026-07-28 10:03:29.254396+00
+6907,Palomeque,Toledo,Castilla-La Mancha,45127,https://www.palomeque.es,,,40.1199294,-3.9635482,2026-07-28 10:03:30.833546+00
+6908,Pantoja,Toledo,Castilla-La Mancha,45128,https://www.pantoja.es,,,40.0454287,-3.8354787,2026-07-28 10:03:32.406292+00
+6909,Paredes de Escalona,Toledo,Castilla-La Mancha,45129,https://www.paredesdeescalona.es,,,40.2045419,-4.429744,2026-07-28 10:03:33.828769+00
+6910,Parrillas,Toledo,Castilla-La Mancha,45130,https://www.parrillas.es,,,40.0630933,-5.0633547,2026-07-28 10:03:35.453464+00
+6911,Pelahustán,Toledo,Castilla-La Mancha,45131,https://www.pelahustan.es,,,40.1766457,-4.5979053,2026-07-28 10:03:37.085247+00
+6912,Pepino,Toledo,Castilla-La Mancha,45132,https://www.ayto-pepino.es,,,40.0326263,-4.8024429,2026-07-28 10:03:38.685671+00
+6913,Polán,Toledo,Castilla-La Mancha,45133,https://www.polan.es,,,39.7888594,-4.1667072,2026-07-28 10:03:40.297935+00
+6914,Portillo de Toledo,Toledo,Castilla-La Mancha,45134,https://www.portillodetoledo.es,,,40.0626338,-4.2273404,2026-07-28 10:03:41.941743+00
+6915,"Puebla de Almoradiel, La",Toledo,Castilla-La Mancha,45135,https://www.puebladealmoradiel.es,,,39.5982659,-3.1186131,2026-07-28 10:03:43.494852+00
+6916,"Puebla de Montalbán, La",Toledo,Castilla-La Mancha,45136,https://www.elpueblademontalban.com,,,39.8644503,-4.3592794,2026-07-28 10:03:45.194738+00
+6917,"Pueblanueva, La",Toledo,Castilla-La Mancha,45137,https://www.lapueblanueva.es,,,39.9124157,-4.6772716,2026-07-28 10:03:46.639968+00
+6918,"Puente del Arzobispo, El",Toledo,Castilla-La Mancha,45138,https://www.elpuentedelarzobispo.es,,,39.9353095,-4.8855742,2026-07-28 10:03:48.32118+00
+6919,Puerto de San Vicente,Toledo,Castilla-La Mancha,45139,https://www.puertodesanvicente.es,,,39.5224262,-5.1139392,2026-07-28 10:03:50.042145+00
+6920,Pulgar,Toledo,Castilla-La Mancha,45140,https://www.pulgar.es,,,39.693534,-4.1528876,2026-07-28 10:03:51.639087+00
+6921,Quero,Toledo,Castilla-La Mancha,45141,https://www.quero.es,,,39.5100043,-3.2472032,2026-07-28 10:03:53.272255+00
+6922,Quintanar de la Orden,Toledo,Castilla-La Mancha,45142,https://www.quintanardelaorden.es,,,39.5942663,-3.0397217,2026-07-28 10:03:54.870886+00
+6923,Quismondo,Toledo,Castilla-La Mancha,45143,https://www.quismondo.es,,,40.1056113,-4.3243085,2026-07-28 10:03:56.462353+00
+6924,"Real de San Vicente, El",Toledo,Castilla-La Mancha,45144,https://www.elrealdesanvicente.es,,,40.1370015,-4.6905667,2026-07-28 10:03:58.011596+00
+6925,Recas,Toledo,Castilla-La Mancha,45145,https://www.recas.es,,,40.0531375,-3.9902585,2026-07-28 10:03:59.619211+00
+6926,Retamoso de la Jara,Toledo,Castilla-La Mancha,45146,https://www.retamosodelajara.es,,,39.7427485,-4.7557209,2026-07-28 10:04:01.238837+00
+6927,Rielves,Toledo,Castilla-La Mancha,45147,https://www.rielves.es,,,39.9607218,-4.1930252,2026-07-28 10:04:02.808304+00
+6928,Robledo del Mazo,Toledo,Castilla-La Mancha,45148,https://www.robledodelmazo.es,,,39.6094103,-4.9048825,2026-07-28 10:04:04.244544+00
+6929,"Romeral, El",Toledo,Castilla-La Mancha,45149,https://www.elromeral.es,,,39.6939703,-3.4300967,2026-07-28 10:04:05.893833+00
+6930,San Bartolomé de las Abiertas,Toledo,Castilla-La Mancha,45150,https://www.sanbartolomedelasabiertas.es,,,39.8275665,-4.7183014,2026-07-28 10:04:07.516773+00
+6931,San Martín de Montalbán,Toledo,Castilla-La Mancha,45151,https://www.sanmartindemontalban.es,,,39.7021643,-4.3880846,2026-07-28 10:04:09.23522+00
+6932,San Martín de Pusa,Toledo,Castilla-La Mancha,45152,https://www.sanmartindepusa.es,,,39.7826821,-4.6336085,2026-07-28 10:04:10.860817+00
+6933,San Pablo de los Montes,Toledo,Castilla-La Mancha,45153,https://www.sanpablodelosmontes.es,,,39.5403833,-4.3298383,2026-07-28 10:04:12.649461+00
+6934,San Román de los Montes,Toledo,Castilla-La Mancha,45154,https://www.sanromandelosmontes.es,,,40.0674417,-4.7322334,2026-07-28 10:04:14.44065+00
+6935,Santa Ana de Pusa,Toledo,Castilla-La Mancha,45155,https://www.santaanadepusa.es,,,39.7620169,-4.7112606,2026-07-28 10:04:16.101949+00
+6936,Santa Cruz de la Zarza,Toledo,Castilla-La Mancha,45156,https://www.santacruzdelazarza.es,,,39.9812739,-3.1886386,2026-07-28 10:04:17.748649+00
+6937,Santa Cruz del Retamar,Toledo,Castilla-La Mancha,45157,https://www.santacruzdelretamar.es,,,40.118509,-4.2409124,2026-07-28 10:04:19.176986+00
+6938,Santa Olalla,Toledo,Castilla-La Mancha,45158,https://www.santaolalla.es,,,40.0241663,-4.4282435,2026-07-28 10:04:20.627464+00
+6939,Santo Domingo-Caudilla,Toledo,Castilla-La Mancha,45901,https://www.santodomingocaudilla.es,,,40.0100661,-4.3194669,2026-07-28 10:04:22.240735+00
+6940,Sartajada,Toledo,Castilla-La Mancha,45159,https://www.sartajada.es,,,40.2128437,-4.7930823,2026-07-28 10:04:23.847548+00
+6941,Segurilla,Toledo,Castilla-La Mancha,45160,https://www.segurilla.es,,,40.0227539,-4.8657291,2026-07-28 10:04:25.408206+00
+6942,Seseña,Toledo,Castilla-La Mancha,45161,https://www.sesena.es,,,40.1039653,-3.6923825,2026-07-28 10:04:26.824568+00
+6943,Sevilleja de la Jara,Toledo,Castilla-La Mancha,45162,https://www.sevillejadelajara.es,,,39.5743406,-4.9647281,2026-07-28 10:04:28.377057+00
+6944,Sonseca,Toledo,Castilla-La Mancha,45163,https://www.sonseca.es,,,39.6797915,-3.9776083,2026-07-28 10:04:30.032979+00
+6945,Sotillo de las Palomas,Toledo,Castilla-La Mancha,45164,https://www.sotillodelaspalomas.es,,,40.1040839,-4.8282918,2026-07-28 10:04:31.600693+00
+6946,Talavera de la Reina,Toledo,Castilla-La Mancha,45165,https://www.talavera.es,,,39.9522413,-4.8901772,2026-07-28 10:04:33.09989+00
+6947,Tembleque,Toledo,Castilla-La Mancha,45166,https://www.tembleque.es,,,39.6970824,-3.5020102,2026-07-28 10:04:34.71908+00
+6948,"Toboso, El",Toledo,Castilla-La Mancha,45167,https://www.eltoboso.es,,,39.9512102,-4.835796,2026-07-28 10:04:36.361205+00
+6949,Toledo,Toledo,Castilla-La Mancha,45168,https://www.toledo.es,,,39.8558913,-4.024265,2026-07-28 10:04:38.264779+00
+6950,Torralba de Oropesa,Toledo,Castilla-La Mancha,45169,https://www.torralbadeoropesa.es,,,39.9340436,-5.1536888,2026-07-28 10:04:39.9082+00
+6951,"Torre de Esteban Hambrán, La",Toledo,Castilla-La Mancha,45171,https://www.latorredeestebanhambran.es,,,40.1718503,-4.2157943,2026-07-28 10:04:41.566126+00
+6952,Torrecilla de la Jara,Toledo,Castilla-La Mancha,45170,https://www.torrecilladelajara.es,,,39.7037025,-4.7722444,2026-07-28 10:04:43.206439+00
+6953,Torrico,Toledo,Castilla-La Mancha,45172,https://www.torrico.es,,,39.8301082,-5.2270015,2026-07-28 10:04:44.702527+00
+6954,Torrijos,Toledo,Castilla-La Mancha,45173,https://www.torrijos.es,,,39.9808552,-4.2842335,2026-07-28 10:04:46.162949+00
+6955,Totanés,Toledo,Castilla-La Mancha,45174,https://www.totanes.es,,,39.7102971,-4.2245753,2026-07-28 10:04:47.691567+00
+6956,Turleque,Toledo,Castilla-La Mancha,45175,https://www.turleque.es,,,39.6011467,-3.6139069,2026-07-28 10:04:49.221884+00
+6957,Ugena,Toledo,Castilla-La Mancha,45176,https://www.ugena.es,,,40.1574161,-3.8766994,2026-07-28 10:04:50.879393+00
+6958,Urda,Toledo,Castilla-La Mancha,45177,https://www.urda.es,,,39.3675974,-3.7313689,2026-07-28 10:04:52.293208+00
+6959,Valdeverdeja,Toledo,Castilla-La Mancha,45179,https://www.valdeverdeja.es,,,39.7955554,-5.2450131,2026-07-28 10:04:53.894456+00
+6960,Valmojado,Toledo,Castilla-La Mancha,45180,https://www.valmojado.es,,,40.2159955,-4.1014797,2026-07-28 10:04:55.324988+00
+6961,Velada,Toledo,Castilla-La Mancha,45181,https://www.velada.es,,,39.9790715,-4.9779461,2026-07-28 10:04:56.765761+00
+6962,"Ventas con Peña Aguilera, Las",Toledo,Castilla-La Mancha,45182,https://www.ventasconpenhaguilera.es,,,39.6175323,-4.2254904,2026-07-28 10:04:58.431549+00
+6963,"Ventas de Retamosa, Las",Toledo,Castilla-La Mancha,45183,https://www.lasventasderetamosa.es,,,40.1506101,-4.1136411,2026-07-28 10:04:59.977001+00
+6964,"Ventas de San Julián, Las",Toledo,Castilla-La Mancha,45184,https://www.ventasdesanjulian.es,,,40.0080692,-5.2949819,2026-07-28 10:05:01.723556+00
+6965,"Villa de Don Fadrique, La",Toledo,Castilla-La Mancha,45186,https://www.villadedonfadrique.es,,,39.6180333,-3.2182294,2026-07-28 10:05:03.413092+00
+6966,Villacañas,Toledo,Castilla-La Mancha,45185,https://www.villacanas.es,,,39.6213826,-3.3392996,2026-07-28 10:05:05.055506+00
+6967,Villafranca de los Caballeros,Toledo,Castilla-La Mancha,45187,https://www.villafrancadeloscaballeros.es,,,39.4263038,-3.3598689,2026-07-28 10:05:06.73374+00
+6968,Villaluenga de la Sagra,Toledo,Castilla-La Mancha,45188,https://www.villaluengadelasagra.es,,,40.0271087,-3.9115161,2026-07-28 10:05:08.188977+00
+6969,Villamiel de Toledo,Toledo,Castilla-La Mancha,45189,https://www.villamieldetoledo.es,,,39.9839099,-4.126224,2026-07-28 10:05:09.805067+00
+6970,Villaminaya,Toledo,Castilla-La Mancha,45190,https://www.villaminaya.es,,,39.7114161,-3.8711454,2026-07-28 10:05:11.407826+00
+6971,Villamuelas,Toledo,Castilla-La Mancha,45191,https://www.villamuelas.es,,,39.8050466,-3.7215901,2026-07-28 10:05:12.798901+00
+6972,Villanueva de Alcardete,Toledo,Castilla-La Mancha,45192,https://www.villanuevadealcardete.es,,,39.6947959,-3.0383688,2026-07-28 10:05:14.446046+00
+6973,Villanueva de Bogas,Toledo,Castilla-La Mancha,45193,https://www.villanuevadebogas.es,,,39.7240112,-3.657196,2026-07-28 10:05:16.050314+00
+6974,Villarejo de Montalbán,Toledo,Castilla-La Mancha,45194,https://www.villarejodemontalban.es,,,39.7689628,-4.573705,2026-07-28 10:05:17.694811+00
+6975,Villarrubia de Santiago,Toledo,Castilla-La Mancha,45195,https://www.villarrubiadesantiago.es,,,40.00829,-3.3285281,2026-07-28 10:05:19.32169+00
+6976,Villaseca de la Sagra,Toledo,Castilla-La Mancha,45196,https://www.villasecadelasagra.es,,,39.9657589,-3.8645766,2026-07-28 10:05:20.98781+00
+6977,Villasequilla,Toledo,Castilla-La Mancha,45197,https://www.villasequilla.es,,,39.8762661,-3.7310065,2026-07-28 10:05:22.593498+00
+6978,Villatobas,Toledo,Castilla-La Mancha,45198,https://www.villatobas.es,,,39.9018494,-3.3239156,2026-07-28 10:05:24.234394+00
+6979,"Viso de San Juan, El",Toledo,Castilla-La Mancha,45199,https://www.elvisodesanjuan.es,,,40.1459224,-3.9153968,2026-07-28 10:05:25.883813+00
+6980,"Yébenes, Los",Toledo,Castilla-La Mancha,45200,https://www.losyebenes.es,,,39.5978768,-3.8592654,2026-07-28 10:05:27.486423+00
+6981,Yeles,Toledo,Castilla-La Mancha,45201,https://www.yeles.es,,,40.1197677,-3.8042363,2026-07-28 10:05:29.062936+00
+6982,Yepes,Toledo,Castilla-La Mancha,45202,https://www.yepes.es,,,39.9177419,-3.6763045,2026-07-28 10:05:30.641664+00
+6983,Yuncler,Toledo,Castilla-La Mancha,45203,https://www.yuncler.es,,,40.0440004,-3.9008053,2026-07-28 10:05:32.246831+00
+6984,Yunclillos,Toledo,Castilla-La Mancha,45204,https://www.yunclillos.es,,,40.0212332,-3.990001,2026-07-28 10:05:33.79661+00
+6985,Yuncos,Toledo,Castilla-La Mancha,45205,https://www.yuncos.es,,,40.0871868,-3.8735226,2026-07-28 10:05:35.437241+00
